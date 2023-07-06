@@ -154,6 +154,7 @@
       <column comment="" key="false" length="-1" name="LastName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getLastName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
       </column>
+      <column comment="" key="false" length="-1" name="FullName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -161,6 +162,7 @@
       <outputTables name="out" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.FirstName " name="FirstName" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.LastName " name="LastName" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.FirstName+&quot; &quot;+  row1.LastName " name="FullName" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
         <mapperTableEntries name="FirstName" nullable="true" type="id_String"/>
@@ -186,6 +188,8 @@
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="LastName"/>
       <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FullName"/>
+      <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
@@ -197,6 +201,7 @@
       <column comment="" key="false" length="-1" name="LastName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getLastName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
       </column>
+      <column comment="" key="false" length="-1" name="FullName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMap_1">
@@ -204,6 +209,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
   <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="FullName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
   </connection>
@@ -212,13 +222,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1204bfbe-9773-4d89-93f6-459708d20087"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>J8iRnZw782k4cKuJ8R2ca1+aTk+jOh8/zFdP/0MdAGThGCrW/uZxC3T18bAOA74pnThucZL6u+kk&#13;
-oM8iDj+OHQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a94c745f-40f8-4b32-bc5d-d2f740f2efa6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>j6N2SQegmjMlM3uXAefEBXcAOdeerJvkdk1bwXEuIADs4BvAmx8kaVQVJ5qi48DZwWkmARu41Ej9&#13;
-EcqTBIzxhQ==</DigestValue></Reference></SignedInfo><SignatureValue>ihd1UegyKSJ1y/5lNnBITzMcTcfVeRcFmcLEH9fSbBIy9ExKl4ZFnbHNSklNBBvSK7jPadU52P3z&#13;
-J19xNeTaVwl8iXbb2l9IGaMKxonkQe3iQyT1UaaiHk4GBz6FsAlwQsZV1b97nHzKI9hkzHy0tZd9&#13;
-j6+R1qiQywjvHVpdHxez43k7ma8Mir9Bjr2gJ+mUBbxEkpLmVq4aK6ujXy6P/JtsP3BnjMCOG9CV&#13;
-s2kq6fdExNzHogmg9wa1SQYVrFn0qSr/ivnmrxHfkyRHug025cT+2vlVCQioz78BTw2Zn1J8+BBU&#13;
-kMRaKQShHD10rENf3JlnRk/OY3gChEIG2f2Xig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7f43b7e6-fd6e-49f2-99b6-ee8db9706b0c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Yy3eX1PFAqrgHmWyg5dFGYn0i3Kxk+bQFT7JsyuuJkkNNG1GYIlT+R5aKGItvC57x009QDLsOdKo&#13;
+88FY+XN9nQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b852b8fa-0a9f-4024-955c-2458b1e6f51d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>26HL2nxsvpd9IjbIRl/t9jo64aY1cG/HtW3qsBDcS4bM4G0i/KkKSeYwc3oo92XPPTUvIdGvKnHw&#13;
+MqtTrUCiQA==</DigestValue></Reference></SignedInfo><SignatureValue>JVDdImxTOcY4t2B27HWkO05OR11YakM6bYb+LZ3b7levgTZbraRy5fv29mYhFvWhBuf33BkQV92w&#13;
+pExqv8Sx83/v1CgVm/bPYIr+XyAEr9M3lK+2nXtYCLZhp416SBsSWD2ucNugAlzgALf0cKLhyJKq&#13;
+SfTHZp/9Q0XRexGSx15iiIn9jXAxuumJPutJhLh1TZadw9dLqxntxhB1vGyOi0RkubaW2p++EkKg&#13;
+aOX1rDRhxzJ/M31blgbxtDme8d762nIIKmUSRc1AFW2SxcFpx7B8mYBo/u/+UYrnppTdEXD8s3LI&#13;
+vtxADlWydV7M/tzpQJ0d4NWLwvsPbEwOTr8nBw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -240,4 +250,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a94c745f-40f8-4b32-bc5d-d2f740f2efa6" Target="#_1204bfbe-9773-4d89-93f6-459708d20087"><Timestamp>2023-07-06 09:52:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b852b8fa-0a9f-4024-955c-2458b1e6f51d" Target="#_7f43b7e6-fd6e-49f2-99b6-ee8db9706b0c"><Timestamp>2023-07-06 09:53:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
