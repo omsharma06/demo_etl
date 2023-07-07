@@ -376,7 +376,11 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ ]
+  "relatedItems" : [ {
+    "id" : "_HfWJ8BzFEe6K4I_9EaZk7A",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
 }, {
   "baseItem" : {
     "id" : "_u_Mp0Il_EeymxPcjlylZxA",
