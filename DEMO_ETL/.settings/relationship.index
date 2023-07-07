@@ -376,7 +376,19 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ ]
+  "relatedItems" : [ {
+    "id" : "_F3_8MBzGEe6K4I_9EaZk7A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_HfWJ8BzFEe6K4I_9EaZk7A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_F3_8MBzGEe6K4I_9EaZk7A - CALL_CENTER",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 }, {
   "baseItem" : {
     "id" : "_u_Mp0Il_EeymxPcjlylZxA",
