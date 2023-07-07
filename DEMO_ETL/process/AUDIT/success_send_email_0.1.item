@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="NONPROD" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="NONPROD">
+    <contextParameter comment="" internalId="_95_-wImLEeymxPcjlylZxA" name="STAGE_ID" prompt="STAGE_ID?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_95_-wYmLEeymxPcjlylZxA" name="TASK_NAME_TMC" prompt="TASK_NAME_TMC?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-womLEeymxPcjlylZxA" name="JOB_NAME_PROJECT" prompt="JOB_NAME_PROJECT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-w4mLEeymxPcjlylZxA" name="OBJECT_NAME" prompt="OBJECT_NAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-xImLEeymxPcjlylZxA" name="FILE_SIZE" prompt="FILE_SIZE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-xYmLEeymxPcjlylZxA" name="TASK_STATUS" prompt="TASK_STATUS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-xomLEeymxPcjlylZxA" name="ERROR_CODE" prompt="ERROR_CODE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-x4mLEeymxPcjlylZxA" name="START_TIME" prompt="START_TIME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-yImLEeymxPcjlylZxA" name="END_TIME" prompt="END_TIME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-yYmLEeymxPcjlylZxA" name="DURATION_SECOND" prompt="DURATION_SECOND?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_95_-yomLEeymxPcjlylZxA" name="ERROR_MSG" prompt="ERROR_MSG?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-y4mLEeymxPcjlylZxA" name="SOURCE_COUNT" prompt="SOURCE_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_95_-zImLEeymxPcjlylZxA" name="TARGET_COUNT" prompt="TARGET_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_95_-zYmLEeymxPcjlylZxA" name="TARGET_OBJECT_NAME" prompt="TARGET_OBJECT_NAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-zomLEeymxPcjlylZxA" name="SOURCE_SYSTEM" prompt="SOURCE_SYSTEM?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-z4mLEeymxPcjlylZxA" name="DATA_LOAD_ENV" prompt="DATA_LOAD_ENV?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-0ImLEeymxPcjlylZxA" name="INSERT_COUNT" prompt="INSERT_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_95_-0YmLEeymxPcjlylZxA" name="UPDATE_COUNT" prompt="UPDATE_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_95_-0omLEeymxPcjlylZxA" name="REJECT_COUNT" prompt="REJECT_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_95_-04mLEeymxPcjlylZxA" name="UNIQUE_ID" prompt="UNIQUE_ID?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-1ImLEeymxPcjlylZxA" name="BUSINESS_DATE" prompt="BUSINESS_DATE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-1YmLEeymxPcjlylZxA" name="AUDIT_TABLE" prompt="AUDIT_TABLE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-1omLEeymxPcjlylZxA" name="FILE_COUNT" prompt="FILE_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_95_-14mLEeymxPcjlylZxA" name="CONTEXT_FILE_NAME" prompt="CONTEXT_FILE_NAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value="/opt/talend/ContextFiles/context_snowtrac_manpro_ft.txt"/>
+    <contextParameter comment="" internalId="_95_-2ImLEeymxPcjlylZxA" name="PRINT_OPERATIONS" prompt="PRINT_OPERATIONS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Boolean" value="false"/>
+    <contextParameter comment="" internalId="_95_-2YmLEeymxPcjlylZxA" name="ORGANIZATION_UNIT" prompt="ORGANIZATION_UNIT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-2omLEeymxPcjlylZxA" name="EXTRACT_QUERY" prompt="EXTRACT_QUERY?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-24mLEeymxPcjlylZxA" name="LANDING_PATH" prompt="LANDING_PATH?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-3ImLEeymxPcjlylZxA" name="TASK_STATUS_FAILED" prompt="TASK_STATUS_FAILED?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-3YmLEeymxPcjlylZxA" name="TASK_STATUS_SUCCESS" prompt="TASK_STATUS_SUCCESS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-3omLEeymxPcjlylZxA" name="TASK_STATUS_RUNNING" prompt="TASK_STATUS_RUNNING?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-34mLEeymxPcjlylZxA" name="ERROR_CODE_SUCCESS" prompt="ERROR_CODE_SUCCESS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-4ImLEeymxPcjlylZxA" name="ERROR_MSG_SUCCESS" prompt="ERROR_MSG_SUCCESS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-4YmLEeymxPcjlylZxA" name="ERROR_CODE_SUBJOB" prompt="ERROR_CODE_SUBJOB?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-4omLEeymxPcjlylZxA" name="ERROR_MSG_SUBJOB" prompt="ERROR_MSG_SUBJOB?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-44mLEeymxPcjlylZxA" name="ERROR_CODE_VALIDATION" prompt="ERROR_CODE_VALIDATION?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-5ImLEeymxPcjlylZxA" name="ERROR_MSG_VALIDATION" prompt="ERROR_MSG_VALIDATION?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-5YmLEeymxPcjlylZxA" name="ERROR_CODE_EXTRACT" prompt="ERROR_CODE_EXTRACT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-5omLEeymxPcjlylZxA" name="ERROR_MSG_EXTRACT" prompt="ERROR_MSG_EXTRACT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-54mLEeymxPcjlylZxA" name="ERROR_CODE_LOAD" prompt="ERROR_CODE_LOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-6ImLEeymxPcjlylZxA" name="ERROR_MSG_LOAD" prompt="ERROR_MSG_LOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-6YmLEeymxPcjlylZxA" name="ERROR_CODE_EXTRACTLOAD" prompt="ERROR_CODE_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-6omLEeymxPcjlylZxA" name="ERROR_MSG_EXTRACTLOAD" prompt="ERROR_MSG_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_95_-64mLEeymxPcjlylZxA" name="TO_BE_CALCULATED" prompt="TO_BE_CALCULATED?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al0ImLEeymxPcjlylZxA" name="OBJECT_TYPE" prompt="OBJECT_TYPE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al0YmLEeymxPcjlylZxA" name="LOAD_TYPE" prompt="LOAD_TYPE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al0omLEeymxPcjlylZxA" name="ERROR_CODE_EXTRACTZERO" prompt="ERROR_CODE_EXTRACTZERO?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al04mLEeymxPcjlylZxA" name="ERROR_MSG_EXTRACTZERO" prompt="ERROR_MSG_EXTRACTZERO?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al1ImLEeymxPcjlylZxA" name="PARALLEL_THREAD_COUNT" prompt="PARALLEL_THREAD_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_96Al1YmLEeymxPcjlylZxA" name="OBJECT_TERRITORY" prompt="OBJECT_TERRITORY?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al1omLEeymxPcjlylZxA" name="DELETE_QUERY" prompt="DELETE_QUERY?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al14mLEeymxPcjlylZxA" name="ERROR_CODE_DELETE" prompt="ERROR_CODE_DELETE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al2ImLEeymxPcjlylZxA" name="ERROR_MSG_DELETE" prompt="ERROR_MSG_DELETE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al2YmLEeymxPcjlylZxA" name="DURATION_MILLISECOND" prompt="DURATION_MILLISECOND?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96Al2omLEeymxPcjlylZxA" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al24mLEeymxPcjlylZxA" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al3ImLEeymxPcjlylZxA" name="TO_EMAIL" prompt="TO_EMAIL?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al3YmLEeymxPcjlylZxA" name="FROM_EMAIL" prompt="FROM_EMAIL?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BrCc4I5tEeyWBorkgKmR0w" name="SMTP_USERNAME" prompt="SMTP_USERNAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BrCc4Y5tEeyWBorkgKmR0w" name="SMTP_PASSWORD" prompt="SMTP_PASSWORD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Password" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" internalId="_96Al3omLEeymxPcjlylZxA" name="STAGE_ID" prompt="STAGE_ID?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_96Al34mLEeymxPcjlylZxA" name="TASK_NAME_TMC" prompt="TASK_NAME_TMC?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al4ImLEeymxPcjlylZxA" name="JOB_NAME_PROJECT" prompt="JOB_NAME_PROJECT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al4YmLEeymxPcjlylZxA" name="OBJECT_NAME" prompt="OBJECT_NAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al4omLEeymxPcjlylZxA" name="FILE_SIZE" prompt="FILE_SIZE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al44mLEeymxPcjlylZxA" name="TASK_STATUS" prompt="TASK_STATUS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al5ImLEeymxPcjlylZxA" name="ERROR_CODE" prompt="ERROR_CODE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al5YmLEeymxPcjlylZxA" name="START_TIME" prompt="START_TIME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al5omLEeymxPcjlylZxA" name="END_TIME" prompt="END_TIME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al54mLEeymxPcjlylZxA" name="DURATION_SECOND" prompt="DURATION_SECOND?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96Al6ImLEeymxPcjlylZxA" name="ERROR_MSG" prompt="ERROR_MSG?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al6YmLEeymxPcjlylZxA" name="SOURCE_COUNT" prompt="SOURCE_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96Al6omLEeymxPcjlylZxA" name="TARGET_COUNT" prompt="TARGET_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96Al64mLEeymxPcjlylZxA" name="TARGET_OBJECT_NAME" prompt="TARGET_OBJECT_NAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al7ImLEeymxPcjlylZxA" name="SOURCE_SYSTEM" prompt="SOURCE_SYSTEM?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al7YmLEeymxPcjlylZxA" name="DATA_LOAD_ENV" prompt="DATA_LOAD_ENV?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al7omLEeymxPcjlylZxA" name="INSERT_COUNT" prompt="INSERT_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96Al74mLEeymxPcjlylZxA" name="UPDATE_COUNT" prompt="UPDATE_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96Al8ImLEeymxPcjlylZxA" name="REJECT_COUNT" prompt="REJECT_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96Al8YmLEeymxPcjlylZxA" name="UNIQUE_ID" prompt="UNIQUE_ID?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al8omLEeymxPcjlylZxA" name="BUSINESS_DATE" prompt="BUSINESS_DATE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al84mLEeymxPcjlylZxA" name="AUDIT_TABLE" prompt="AUDIT_TABLE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al9ImLEeymxPcjlylZxA" name="FILE_COUNT" prompt="FILE_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_96Al9YmLEeymxPcjlylZxA" name="CONTEXT_FILE_NAME" prompt="CONTEXT_FILE_NAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al9omLEeymxPcjlylZxA" name="PRINT_OPERATIONS" prompt="PRINT_OPERATIONS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Boolean" value=""/>
+    <contextParameter comment="" internalId="_96Al94mLEeymxPcjlylZxA" name="ORGANIZATION_UNIT" prompt="ORGANIZATION_UNIT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al-ImLEeymxPcjlylZxA" name="EXTRACT_QUERY" prompt="EXTRACT_QUERY?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al-YmLEeymxPcjlylZxA" name="LANDING_PATH" prompt="LANDING_PATH?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al-omLEeymxPcjlylZxA" name="TASK_STATUS_FAILED" prompt="TASK_STATUS_FAILED?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al-4mLEeymxPcjlylZxA" name="TASK_STATUS_SUCCESS" prompt="TASK_STATUS_SUCCESS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al_ImLEeymxPcjlylZxA" name="TASK_STATUS_RUNNING" prompt="TASK_STATUS_RUNNING?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al_YmLEeymxPcjlylZxA" name="ERROR_CODE_SUCCESS" prompt="ERROR_CODE_SUCCESS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al_omLEeymxPcjlylZxA" name="ERROR_MSG_SUCCESS" prompt="ERROR_MSG_SUCCESS?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96Al_4mLEeymxPcjlylZxA" name="ERROR_CODE_SUBJOB" prompt="ERROR_CODE_SUBJOB?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmAImLEeymxPcjlylZxA" name="ERROR_MSG_SUBJOB" prompt="ERROR_MSG_SUBJOB?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmAYmLEeymxPcjlylZxA" name="ERROR_CODE_VALIDATION" prompt="ERROR_CODE_VALIDATION?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmAomLEeymxPcjlylZxA" name="ERROR_MSG_VALIDATION" prompt="ERROR_MSG_VALIDATION?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmA4mLEeymxPcjlylZxA" name="ERROR_CODE_EXTRACT" prompt="ERROR_CODE_EXTRACT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmBImLEeymxPcjlylZxA" name="ERROR_MSG_EXTRACT" prompt="ERROR_MSG_EXTRACT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmBYmLEeymxPcjlylZxA" name="ERROR_CODE_LOAD" prompt="ERROR_CODE_LOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmBomLEeymxPcjlylZxA" name="ERROR_MSG_LOAD" prompt="ERROR_MSG_LOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmB4mLEeymxPcjlylZxA" name="ERROR_CODE_EXTRACTLOAD" prompt="ERROR_CODE_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmCImLEeymxPcjlylZxA" name="ERROR_MSG_EXTRACTLOAD" prompt="ERROR_MSG_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmCYmLEeymxPcjlylZxA" name="TO_BE_CALCULATED" prompt="TO_BE_CALCULATED?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmComLEeymxPcjlylZxA" name="OBJECT_TYPE" prompt="OBJECT_TYPE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmC4mLEeymxPcjlylZxA" name="LOAD_TYPE" prompt="LOAD_TYPE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmDImLEeymxPcjlylZxA" name="ERROR_CODE_EXTRACTZERO" prompt="ERROR_CODE_EXTRACTZERO?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmDYmLEeymxPcjlylZxA" name="ERROR_MSG_EXTRACTZERO" prompt="ERROR_MSG_EXTRACTZERO?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmDomLEeymxPcjlylZxA" name="PARALLEL_THREAD_COUNT" prompt="PARALLEL_THREAD_COUNT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_96AmD4mLEeymxPcjlylZxA" name="OBJECT_TERRITORY" prompt="OBJECT_TERRITORY?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmEImLEeymxPcjlylZxA" name="DELETE_QUERY" prompt="DELETE_QUERY?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmEYmLEeymxPcjlylZxA" name="ERROR_CODE_DELETE" prompt="ERROR_CODE_DELETE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmEomLEeymxPcjlylZxA" name="ERROR_MSG_DELETE" prompt="ERROR_MSG_DELETE?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmE4mLEeymxPcjlylZxA" name="DURATION_MILLISECOND" prompt="DURATION_MILLISECOND?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_96AmFImLEeymxPcjlylZxA" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmFYmLEeymxPcjlylZxA" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmFomLEeymxPcjlylZxA" name="TO_EMAIL" prompt="TO_EMAIL?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_96AmF4mLEeymxPcjlylZxA" name="FROM_EMAIL" prompt="FROM_EMAIL?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BrCc4o5tEeyWBorkgKmR0w" name="SMTP_USERNAME" prompt="SMTP_USERNAME?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BrCc445tEeyWBorkgKmR0w" name="SMTP_PASSWORD" prompt="SMTP_PASSWORD?" promptNeeded="false" repositoryContextId="_XPkPYHd0Eeu_npvQUiL0Ww" type="id_Password" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:VN8E9fO38M/NzqrCz1K4QARuJ3HA6smEbJkmc2DU"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/program files/Talend-Studio-20211109_1610-V8.0.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6pZxyukkMIURCaGWkAapuaIHjFrdIpNTi+iueidU"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_o-deQIWAEeyDksD0MGVaog" name="DQTechnical"/>
+    <routinesParameter id="_o9nwwIWAEeyDksD0MGVaog" name="DataMasking"/>
+    <routinesParameter id="_o8AnMIWAEeyDksD0MGVaog" name="DataOperation"/>
+    <routinesParameter id="_o96rsIWAEeyDksD0MGVaog" name="DataQualityDependencies"/>
+    <routinesParameter id="_o9yI0IWAEeyDksD0MGVaog" name="DataQuality"/>
+    <routinesParameter id="_o-TGMIWAEeyDksD0MGVaog" name="DqStringHandling"/>
+    <routinesParameter id="_o8KYMIWAEeyDksD0MGVaog" name="Mathematical"/>
+    <routinesParameter id="_o8VXUIWAEeyDksD0MGVaog" name="Numeric"/>
+    <routinesParameter id="_o8ehQIWAEeyDksD0MGVaog" name="Relational"/>
+    <routinesParameter id="_o607cIWAEeyDksD0MGVaog" name="SQLike"/>
+    <routinesParameter id="_o8mdEIWAEeyDksD0MGVaog" name="StringHandling"/>
+    <routinesParameter id="_o8zRYIWAEeyDksD0MGVaog" name="TalendDataGenerator"/>
+    <routinesParameter id="_o89CYIWAEeyDksD0MGVaog" name="TalendDate"/>
+    <routinesParameter id="_o9d_wIWAEeyDksD0MGVaog" name="TalendStringUtil"/>
+    <routinesParameter id="_o9TnsIWAEeyDksD0MGVaog" name="TalendString"/>
+  </parameters>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
+    <elementParameter field="TEXT" name="TO" value="context.TO_EMAIL"/>
+    <elementParameter field="TEXT" name="FROM" value="context.FROM_EMAIL"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="true"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;TALEND ADMIN&quot;"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="context.SOURCE_SYSTEM+&quot; &quot;+&quot;SUCCESS:&quot;+&quot; &quot;+context.JOB_NAME_PROJECT+&quot; &quot;+context.START_TIME"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hello Team, &#13;&#10;&#13;&#10;The below job for the source system: &quot;+context.SOURCE_SYSTEM+&quot; has SUCCEEDED today.&#13;&#10;&quot;+context.JOB_NAME_PROJECT+&quot;&#13;&#10;&#13;&#10;Thanks,&#13;&#10;Talend Team  &#13;&#10;&quot;"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="false"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="context.SMTP_HOST"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="context.SMTP_PORT"/>
+    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Low"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.SMTP_USERNAME"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:TLs8+1qrXvELONYxjIrtjWJtJamyOxRNVTyYXs2rbMFAhmJKC6GH+OKE/VvRiuev1A=="/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Success_email"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="BASIC"/>
+    <metadata connector="FLOW" name="tSendMail_1"/>
+  </node>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_77240222-b403-4b22-8810-64dabed07288"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PXZeBPsbMAiCk1INIQjKs9wer/IFbxjudcW8J6+mmuLLWAlLq0U/JurCD/SwY6ikzs5A9GEXIvPH&#13;
+YNSnRdjcWw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9585358f-a7cf-4691-85da-2abb6b5038b8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jVBo6HizbsebloCzQWavQ9/SQN2wVjyZdmEsgqOcwcqURotNhFdIIIYijBwO5dJSNjQmyQnpQlML&#13;
+V2Up7Iu+XQ==</DigestValue></Reference></SignedInfo><SignatureValue>RGwXL6HF/NRlZsO9scaGgM4y540h3P8ayxLmAn87aQ6z6FEppT3zwKAHf+hpypgqe7xa+dkhploJ&#13;
+HkUC0+3FHzcUKMAaacGaXzezigM8RylzMRRD+KZkwoE8JNqRelAHpzdZH/TlAlAyscxvqa3cul4H&#13;
+Gr0G8EGGbJ3PJO6SwM5ODFImMSSPa3wc3IseT2EtO+BZrXKLNRLSe5iDPKjzB+fNWEB5VnxroocY&#13;
+L0PNpNQSI58VlKy6AqDT5LWueoMvRk9K6XH6StbrkR7EOm7LT4pNErXAtzS25lUjvld7W8u49VdZ&#13;
+RN6pZVUZJWPFxnoE99Bym/nWLPe8f35bzHMsAA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9585358f-a7cf-4691-85da-2abb6b5038b8" Target="#_77240222-b403-4b22-8810-64dabed07288"><Timestamp>2023-07-07 11:38:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

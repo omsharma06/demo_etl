@@ -1,0 +1,26 @@
+{
+  "itemId" : "_v4h6QHUJEeu42YMVhooUIA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_7SzlMHUJEeu42YMVhooUIA",
+    "parameterList" : [ {
+      "id" : "_7TL_sXUJEeu42YMVhooUIA",
+      "name" : "db2_manpro_mappingFile"
+    }, {
+      "id" : "_7TL_snUJEeu42YMVhooUIA",
+      "name" : "db2_manpro_connection_userPassword_userId"
+    }, {
+      "id" : "_7TL_s3UJEeu42YMVhooUIA",
+      "name" : "db2_manpro_connection_userPassword_password"
+    }, {
+      "id" : "_7TL_tHUJEeu42YMVhooUIA",
+      "name" : "db2_manpro_drivers"
+    }, {
+      "id" : "_7TL_tXUJEeu42YMVhooUIA",
+      "name" : "db2_manpro_connection_driverClass"
+    }, {
+      "id" : "_7TL_tnUJEeu42YMVhooUIA",
+      "name" : "db2_manpro_connection_jdbcUrl"
+    } ]
+  } ]
+}

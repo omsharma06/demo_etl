@@ -1,0 +1,74 @@
+{
+  "itemId" : "_Alj4QHUKEeu42YMVhooUIA",
+  "contextList" : [ {
+    "contextName" : "NONPROD",
+    "repoId" : "_FpUtEHUKEeu42YMVhooUIA",
+    "parameterList" : [ {
+      "id" : "_lG2dEXaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_region"
+    }, {
+      "id" : "_lG2dEnaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_account"
+    }, {
+      "id" : "_lG2dE3aNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_keyAlias"
+    }, {
+      "id" : "_lG2dFHaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_authenticationType"
+    }, {
+      "id" : "_lG2dFXaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_customRegionID"
+    }, {
+      "id" : "_lG2dFnaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_warehouse"
+    }, {
+      "id" : "_lG2dF3aNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_jdbcParameters"
+    }, {
+      "id" : "_lG2dGHaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_userPassword_password"
+    }, {
+      "id" : "_lG2dGXaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_loginTimeout"
+    }, {
+      "id" : "_lG2dGnaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_role"
+    }, {
+      "id" : "_lG2dG3aNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_db"
+    }, {
+      "id" : "_lG2dHHaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_userPassword_userId"
+    }, {
+      "id" : "_lG2dHXaNEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_audit_schemaName"
+    }, {
+      "id" : "_lG2dHnaNEeul28dyPgSNLA",
+      "name" : "CONTEXT_FILE_NAME_AUDIT"
+    }, {
+      "id" : "_lG2dH3aNEeul28dyPgSNLA",
+      "name" : "PRINT_OPERATIONS_AUDIT"
+    }, {
+      "id" : "_KBuhQHc6Eeubuamxi9IjFg",
+      "name" : "AUDIT_TABLE_TASK"
+    }, {
+      "id" : "_KBuhQXc6Eeubuamxi9IjFg",
+      "name" : "AUDIT_TABLE_TASK_HISTORY"
+    }, {
+      "id" : "_KBuhQnc6Eeubuamxi9IjFg",
+      "name" : "AUDIT_TABLE_RESTART"
+    }, {
+      "id" : "_KBuhQ3c6Eeubuamxi9IjFg",
+      "name" : "AUDIT_TABLE_INCREMENTAL"
+    }, {
+      "id" : "_KBuhRHc6Eeubuamxi9IjFg",
+      "name" : "AUDIT_TABLE_MASTER_LIST"
+    }, {
+      "id" : "_KBuhRXc6Eeubuamxi9IjFg",
+      "name" : "AUDIT_TABLE_TASK_CONFIG"
+    }, {
+      "id" : "_KBuhRnc6Eeubuamxi9IjFg",
+      "name" : "AUDIT_TABLE_CONTEXT"
+    } ]
+  } ]
+}

@@ -1,0 +1,77 @@
+{
+  "itemId" : "_4az_EHajEeul28dyPgSNLA",
+  "contextList" : [ {
+    "contextName" : "NONPROD",
+    "repoId" : "_A8XwcHakEeul28dyPgSNLA",
+    "parameterList" : [ {
+      "id" : "_A84GwXakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_loginTimeout"
+    }, {
+      "id" : "_A84GwnakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_role"
+    }, {
+      "id" : "_A84Gw3akEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_region"
+    }, {
+      "id" : "_A84GxHakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_authenticationType"
+    }, {
+      "id" : "_A84GxXakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_userPassword_password"
+    }, {
+      "id" : "_A84GxnakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_jdbcParameters"
+    }, {
+      "id" : "_A84Gx3akEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_userPassword_userId"
+    }, {
+      "id" : "_A84GyHakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_customRegionID"
+    }, {
+      "id" : "_A84GyXakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_account"
+    }, {
+      "id" : "_A84GynakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_keyAlias"
+    }, {
+      "id" : "_A84Gy3akEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_warehouse"
+    }, {
+      "id" : "_A84GzHakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_schemaName"
+    }, {
+      "id" : "_A84GzXakEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_db"
+    }, {
+      "id" : "_KEq8QHalEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_stage_path"
+    }, {
+      "id" : "_KEq8QXalEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_local_folder"
+    }, {
+      "id" : "_KEq8QnalEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_copy_onerror"
+    }, {
+      "id" : "_KEq8Q3alEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_copy_fileformat"
+    }, {
+      "id" : "_KEq8RHalEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_put_parallel"
+    }, {
+      "id" : "_KEq8RXalEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_put_autocompress"
+    }, {
+      "id" : "_KEq8RnalEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_put_retry"
+    }, {
+      "id" : "_KEq8R3alEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_put_chunksize"
+    }, {
+      "id" : "_14OmMHamEeul28dyPgSNLA",
+      "name" : "snowflake_mandl_manpro_filerequests"
+    }, {
+      "id" : "_j1OB0HaoEeul28dyPgSNLA",
+      "name" : "CONTEXT_FILE_NAME_SNOWFLAKE_MANPRO"
+    } ]
+  } ]
+}
