@@ -1,5 +1,24 @@
 [ {
   "baseItem" : {
+    "id" : "_81mbYCCmEe6p-Mh8XWoP8A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_4qCu0CCDEe6p-Mh8XWoP8A",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hfckgB7jEe6hs-C6G1UkSw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "PasswordRoutine",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_8oNsEB-oEe6XN43cFuTSIw",
     "version" : "0.1",
     "type" : "job"
