@@ -535,10 +535,6 @@
     "id" : "_hfckgB7jEe6hs-C6G1UkSw",
     "version" : "Latest",
     "type" : "context"
-  }, {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
   } ]
 }, {
   "baseItem" : {
