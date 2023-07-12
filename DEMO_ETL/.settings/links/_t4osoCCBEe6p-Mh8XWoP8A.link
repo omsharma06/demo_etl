@@ -67,6 +67,9 @@
     }, {
       "id" : "_4qOVAyCDEe6p-Mh8XWoP8A",
       "name" : "business_date"
+    }, {
+      "id" : "_-kKZgCCnEe6p-Mh8XWoP8A",
+      "name" : "status"
     } ]
   } ]
 }
