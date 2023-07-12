@@ -13,6 +13,14 @@
     "version" : "Latest",
     "type" : "context"
   }, {
+    "id" : "DEMO_ETL:_sQFacCCBEe6p-Mh8XWoP8A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "DEMO_ETL:_t4osoCCBEe6p-Mh8XWoP8A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "PasswordRoutine",
     "version" : "Latest",
     "type" : "routine"
