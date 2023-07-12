@@ -112,6 +112,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_O5EVkCBfEe6p-Mh8XWoP8A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_F3_8MBzGEe6K4I_9EaZk7A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_F3_8MBzGEe6K4I_9EaZk7A - USER_DETAILS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_P7DqkFnjEeya56BqLtRNSQ",
     "version" : "0.1",
     "type" : "job"
