@@ -70,6 +70,21 @@
     }, {
       "id" : "_-kKZgCCnEe6p-Mh8XWoP8A",
       "name" : "status"
+    }, {
+      "id" : "__7UxwyFMEe6SUJevzocZ8Q",
+      "name" : "error_message"
+    }, {
+      "id" : "__7UxxCFMEe6SUJevzocZ8Q",
+      "name" : "zone"
+    }, {
+      "id" : "__7UxwSFMEe6SUJevzocZ8Q",
+      "name" : "duration_second"
+    }, {
+      "id" : "__7UxwCFMEe6SUJevzocZ8Q",
+      "name" : "duration_millisecond"
+    }, {
+      "id" : "__7UxwiFMEe6SUJevzocZ8Q",
+      "name" : "target_object_name"
     } ]
   } ]
 }
