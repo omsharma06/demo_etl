@@ -372,23 +372,11 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "DEMO_ETL:_chexYCVUEe65zJkEvkXPsw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "DEMO_ETL:_cjp7oCVUEe65zJkEvkXPsw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "DEMO_ETL:_rSX6MCVREe65zJkEvkXPsw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
     "id" : "VIRGINMOBILE_KSA_PROJECT:_MvUnQASGEe6i___fDFlWeA",
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "VIRGINMOBILE_KSA_PROJECT:_rJm_cASGEe6i___fDFlWeA",
+    "id" : "VIRGINMOBILE_KSA_PROJECT:_OdkRwASGEe6i___fDFlWeA",
     "version" : "Latest",
     "type" : "job"
   }, {
