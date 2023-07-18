@@ -94,15 +94,6 @@
     <contextParameter comment="" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_98rRMEobEe2hEYE2ZH27SQ"/>
     <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/TALEND/AUDIT_FRAMEWORK/context_file/all_context_parameters.csv" xmi:id="_WP1gIPYgEe2ngrr7sI9Q_g"/>
     <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeLasPmXEe2uyaIG4cVC_w"/>
-    <contextParameter comment="" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvYPwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvYfwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvYvwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvY_wcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZPwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZfwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_kswKEPwdEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i0rYsPweEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xYK6gPwiEe2SUr_mCINuVA"/>
     <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BgAjmEe6_U5AZC_1q2A"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_VcoS8JnwEeyUku2vCfi_yQ">
@@ -200,15 +191,6 @@
     <contextParameter comment="" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_98rRMUobEe2hEYE2ZH27SQ"/>
     <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_WP1gIfYgEe2ngrr7sI9Q_g"/>
     <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeLatPmXEe2uyaIG4cVC_w"/>
-    <contextParameter comment="" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZvwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZ_wcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvaPwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvafwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvavwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVva_wcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_kswxIPwdEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i0r_wPweEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xYK6gfwiEe2SUr_mCINuVA"/>
     <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BgQjmEe6_U5AZC_1q2A"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_GkCgELpHEeygaf0KSkgPiQ">
@@ -306,24 +288,15 @@
     <contextParameter comment="" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_98r4QEobEe2hEYE2ZH27SQ"/>
     <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_WP1gIvYgEe2ngrr7sI9Q_g"/>
     <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeMBwPmXEe2uyaIG4cVC_w"/>
-    <contextParameter comment="" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvbPwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvbfwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvbvwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvb_wcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvcPwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvcfwcEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_kswxIfwdEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i0r_wfweEe2SUr_mCINuVA"/>
-    <contextParameter comment="" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xYK6gvwiEe2SUr_mCINuVA"/>
     <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BggjmEe6_U5AZC_1q2A"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a8fa5471-90a8-4766-9900-cc398e11f416"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uPa+wEWq1t75jlDuXDyafn9+9VzJkqUuizAMxhT9Lo9o2CtgXq+qSm7WATwWehXnzUB73WBnt0gQ&#13;
-LspZ1HGrBA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6da48a23-4d86-47e9-8ba1-bb4a7edebb8d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jG8mSNz9BBAHFK2o+fet00FInMbD8cghABYgUvjglLota7lm8TETgxBf0sebFgumSv91HH7GYfVX&#13;
-Fa9ZY/ggOw==</DigestValue></Reference></SignedInfo><SignatureValue>KUrJw7fSOPRNzCUqqGKmfPF6XoVO1bDpUfZAAnTIrMH+5nOVGsiA6DM96PQQZy1XmimKIRg7kAVD&#13;
-RVIqho4e3lO2VD/fTd+qlIGSZ6iKChOhehya45NWoAJ2UsmgfIsB4Omlm02lqg5aSyBUJ1TjEbRl&#13;
-GKpd49hxr+7nspo//gq+YYhWznurJym0C//mavakAcwD/7pNspGnaMv4fBwtiCvbQNJ5FNIi9Gbz&#13;
-SMnIfv0nUp9+bFDuM+GXo/QZ+9+Z2sQAtijLuvU8RodJk+oPQomOp2R8QA7Ue4SZ9kQwlR4Yc1UZ&#13;
-hDnZbVU9YkiMqbDH/a2wPtugRbyl+ANWGS4Sxg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_129f193b-66b6-4aae-b48c-0d2de0b6204d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ziootZL2lX8kgZfwMJjBu5EwQ8xH7xiI4AOvF0HCyZ9xq6Vum6Bc83UHoq7u9xYVF11bQOakrEFQ&#13;
+dzW2jCK2ug==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c2c6d539-10d6-4332-9710-ae563f342a1a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2Iw32MLPPQWQmMHS6qadlmqHqKozfGa1usrlyyWqUVABblSOyIkNfD/ZdMm9XzK+ZgLLIOq8RmTK&#13;
+344PYGaMEQ==</DigestValue></Reference></SignedInfo><SignatureValue>ZIjmBjiSQy+MHfKvepT5QuSK7Ytglr1wHtbN9DRT0rAgAUDOBXaTJJPd//5w5RmqZ0RECvQSivPo&#13;
+cm7oEGU7yDsCRvVd+js8HE8BNtdCefacBgmBGHMMFwhvqvCla9clQEJ8tSX/8qzBbdUMPMzmFm0i&#13;
+HGpzXoCd7EAHx34F90omttkWqSUCJ3MmwxEmMWzO5qj8wTlr5KM0XQz8LZLU76htQPwdCiHQPUrx&#13;
+cTI4DYVAkFcpjQwMxq/DYZDggKvfR85ZrUFFeM/J8XqJ8Xytt53Wxzx3XsMdJnN7dqDXSx12NyPA&#13;
+KfxMsL7nFooI6Jwih2bxD1taOK/ggShpvUVL/g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -345,4 +318,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6da48a23-4d86-47e9-8ba1-bb4a7edebb8d" Target="#_a8fa5471-90a8-4766-9900-cc398e11f416"><Timestamp>2023-07-18 07:35:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c2c6d539-10d6-4332-9710-ae563f342a1a" Target="#_129f193b-66b6-4aae-b48c-0d2de0b6204d"><Timestamp>2023-07-18 07:37:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
