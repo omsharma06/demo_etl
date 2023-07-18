@@ -42,7 +42,7 @@
     <contextParameter comment="" internalId="_qkelpyVpEe65zJkEvkXPsw" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkelqCVpEe65zJkEvkXPsw" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value="D:/TALEND/AUDIT_FRAMEWORK/context_file/context_parameter_main.csv"/>
     <contextParameter comment="" internalId="_qkelqSVpEe65zJkEvkXPsw" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_qkelqiVpEe65zJkEvkXPsw" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_qkelqiVpEe65zJkEvkXPsw" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value="D:/TALEND/AUDIT_FRAMEWORK/context_file/context_parameter.csv"/>
     <contextParameter comment="" internalId="_qkelqyVpEe65zJkEvkXPsw" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkelrCVpEe65zJkEvkXPsw" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkelrSVpEe65zJkEvkXPsw" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
@@ -276,7 +276,7 @@
     <contextParameter comment="" internalId="_qkfzxyVpEe65zJkEvkXPsw" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkfzyCVpEe65zJkEvkXPsw" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value="D:/TALEND/AUDIT_FRAMEWORK/context_file/context_parameter_main.csv"/>
     <contextParameter comment="" internalId="_qkfzySVpEe65zJkEvkXPsw" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_qkfzyiVpEe65zJkEvkXPsw" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_qkfzyiVpEe65zJkEvkXPsw" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value="D:/TALEND/AUDIT_FRAMEWORK/context_file/context_parameter.csv"/>
     <contextParameter comment="" internalId="_qkfzyyVpEe65zJkEvkXPsw" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkfzzCVpEe65zJkEvkXPsw" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkfzzSVpEe65zJkEvkXPsw" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
@@ -619,6 +619,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="master_info_list"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_1">
       <column comment="" key="false" length="-1" name="object_name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="source_system" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -743,13 +744,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_98e7ee30-b8d8-4bf2-8848-6bc3d0e9df88"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0sayxJegy/3O751JHo9XlI/2TSvM/Z/wjsRQYIMmv+/7n2ZoM1qlU06MpPmG6loqieliJQXIEFsr&#13;
-OmzEMpOevQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5292bb35-351b-40fd-830c-f5c8031f4c7e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>x8jCWXUO8hqMPshiM5/jJ1mKjJDUQ6476axahOM6D1FthCuvGa3ZIMJD/QwpFwXPc4lK8oImdzOY&#13;
-w4xcYsHmvQ==</DigestValue></Reference></SignedInfo><SignatureValue>g2EXAzwf1ITXq26UBLXB/URoacjc31YQrAgkg76NfIGWt8QBDlMp8xKWtivpa7bjzbDnzHjJcEar&#13;
-Qip2WY9B1gIjEMnOxzdLD56f2JIHMrDR6eEbInj4/59rgDp+ukj4ZJMOmZM+u8E7hGEoSrcAOvoa&#13;
-tp2m2cM5F3zXbDfcsqVqlsbUJcqDi0N0+JbxVXxCDLkznvc2/O2Rf4XnHGkDkouqQS9GwPa3KRno&#13;
-hSpv4FLdrqcjOmIueUQL4g85Z7GsECjVX6zFDZQjk4yHNL4dM4VglDsVFowHDV1X+c7iKH5/k0nl&#13;
-f0EkJCFCWU81+o6cwnhS9h8AC2ZoXENEU4aA0Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a933c54b-e2bc-4764-9127-184bfcda9aca"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>laRvUr2sAVgddadbFSKUtfJ/arqFYEV745Uv0IR7/zfpl6ORNAw635afHkFdvjdcnCGdYtldWZ4A&#13;
+T/OgkJbFqQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8c3a16a8-8ddd-4bdd-ba12-419ca472505c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GTXvKNG+NfpwSb7pvq8vXffvolUXCaMnJWpqWltm75E6A5AkDvapnp/o4KO8KU8aiYFcbuLR75yn&#13;
+Y+a9wSH81A==</DigestValue></Reference></SignedInfo><SignatureValue>VJr0O/Ki0/RzFCjNk6qwkA5zbXMN0axEY1uloYS5vmr8Xfj1dzvRAtBjEHFVoGNCW7FU5gk0inYe&#13;
+Fpl/uNyT8EAMyxfLqtY+bAzOHAroIG1dqwOzf/3zw1YCJRgDKtCKK+JZChI5vMsWZDpqaYvaMJFx&#13;
+uWmswQF7PdEW3kIwP0HqcoZh2NO69g0j4K7treo5oZwTddTpYbfONNd671VDlduMqYm+sNlKaPF3&#13;
+uDwl9vgJ4YfRKfNjq4nz8v3JYp7YyTWkU03rdWrSc1ovdX1jV+ta9SrvBxvweA0OvDbDAoFjzORM&#13;
+BJqYxsuJw8anXMAzC9BMS5xpXyq+M5snSYncfg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -771,4 +772,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5292bb35-351b-40fd-830c-f5c8031f4c7e" Target="#_98e7ee30-b8d8-4bf2-8848-6bc3d0e9df88"><Timestamp>2023-07-18 14:05:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8c3a16a8-8ddd-4bdd-ba12-419ca472505c" Target="#_a933c54b-e2bc-4764-9127-184bfcda9aca"><Timestamp>2023-07-18 14:52:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
