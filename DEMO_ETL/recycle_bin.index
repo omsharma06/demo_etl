@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_Yic5oCScEe6wq-z9zRGkzg" path="NEW_FRAMEWORK" type="PROCESS"/>
   <deletedItems id="_eSkJUBvkEe6dhNn0w_VVUg" path="MySQL/UserDefined" type="SQLPATTERNS"/>
   <deletedItems id="_ypuQ0BzCEe6K4I_9EaZk7A" path="" type="snowflake"/>
 </recyclebin:RecycleBin>
