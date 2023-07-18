@@ -2,7 +2,7 @@
   "itemId" : "_chexYCVUEe65zJkEvkXPsw",
   "contextList" : [ {
     "contextName" : "PROD",
-    "repoId" : "_gTAsAPwEEe2SUr_mCINuVA",
+    "repoId" : "_YajsMCU8Ee65zJkEvkXPsw",
     "parameterList" : [ {
       "id" : "_GkCgKbpHEeygaf0KSkgPiQ",
       "name" : "stage_id"
@@ -286,73 +286,58 @@
       "id" : "_xeMBwPmXEe2uyaIG4cVC_w",
       "name" : "file_name"
     }, {
-      "id" : "_gMVvbPwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Server"
+      "id" : "_yV0BggjmEe6_U5AZC_1q2A",
+      "name" : "transient_temp_path"
     }, {
-      "id" : "_gMVvbfwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Login"
+      "id" : "_5GYnOiVSEe65zJkEvkXPsw",
+      "name" : "mysql_host"
     }, {
-      "id" : "_gMVvbvwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Password"
+      "id" : "_5GYnOyVSEe65zJkEvkXPsw",
+      "name" : "mysql_port"
     }, {
-      "id" : "_gMVvb_wcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Port"
+      "id" : "_5GYnPCVSEe65zJkEvkXPsw",
+      "name" : "mysql_database"
     }, {
-      "id" : "_gMVvcPwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Database"
+      "id" : "_5GYnPSVSEe65zJkEvkXPsw",
+      "name" : "mysql_username"
     }, {
-      "id" : "_gMVvcfwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Schema"
-    }, {
-      "id" : "_kswxIfwdEe2SUr_mCINuVA",
-      "name" : "audit_table_ftp_count"
-    }, {
-      "id" : "_i0r_wfweEe2SUr_mCINuVA",
-      "name" : "active_flag"
-    }, {
-      "id" : "_xYK6gvwiEe2SUr_mCINuVA",
-      "name" : "vm_vertica_AdditionalParams"
+      "id" : "_5GYnPiVSEe65zJkEvkXPsw",
+      "name" : "mysql_password"
     } ]
   }, {
     "contextName" : "PROD",
-    "repoId" : "_Nu_i8PwfEe2SUr_mCINuVA",
+    "repoId" : "_hfckgB7jEe6hs-C6G1UkSw",
     "parameterList" : [ {
-      "id" : "_UV0tAvwfEe2SUr_mCINuVA",
-      "name" : "file_domain"
+      "id" : "_hfpY1h7jEe6hs-C6G1UkSw",
+      "name" : "schema"
     }, {
-      "id" : "_UV0tA_wfEe2SUr_mCINuVA",
-      "name" : "file_version"
+      "id" : "_hfpY0x7jEe6hs-C6G1UkSw",
+      "name" : "password"
     }, {
-      "id" : "_UV0tAPwfEe2SUr_mCINuVA",
-      "name" : "file_seq_no"
+      "id" : "_hfpY1R7jEe6hs-C6G1UkSw",
+      "name" : "database"
     }, {
-      "id" : "_RWKogPwgEe2SUr_mCINuVA",
-      "name" : "local_ftp_dir_bkp"
+      "id" : "_hfpY2B7jEe6hs-C6G1UkSw",
+      "name" : "role"
     }, {
-      "id" : "_xSJSYPwfEe2SUr_mCINuVA",
-      "name" : "file_periodstart"
+      "id" : "_hfpY0h7jEe6hs-C6G1UkSw",
+      "name" : "user_id"
     }, {
-      "id" : "_RRTZ0PwkEe2SUr_mCINuVA",
-      "name" : "auditkey_sufix"
+      "id" : "_hfpY2R7jEe6hs-C6G1UkSw",
+      "name" : "region_id"
     }, {
-      "id" : "_UV0tAfwfEe2SUr_mCINuVA",
-      "name" : "auditkey"
+      "id" : "_hfpY1B7jEe6hs-C6G1UkSw",
+      "name" : "warehouse"
     }, {
-      "id" : "_xSJSYfwfEe2SUr_mCINuVA",
-      "name" : "file_periodend"
+      "id" : "_hfpY0R7jEe6hs-C6G1UkSw",
+      "name" : "account"
     }, {
-      "id" : "_-eBUcPw4Ee2SUr_mCINuVA",
-      "name" : "src_cnt"
-    }, {
-      "id" : "_RWKogfwgEe2SUr_mCINuVA",
-      "name" : "file_name_mask"
-    }, {
-      "id" : "_RWKogvwgEe2SUr_mCINuVA",
-      "name" : "src_file_path"
+      "id" : "_hfpY1x7jEe6hs-C6G1UkSw",
+      "name" : "additional_params"
     } ]
   }, {
     "contextName" : "DEV",
-    "repoId" : "_gTAsAPwEEe2SUr_mCINuVA",
+    "repoId" : "_YajsMCU8Ee65zJkEvkXPsw",
     "parameterList" : [ {
       "id" : "_VcoTCZnwEeyUku2vCfi_yQ",
       "name" : "stage_id"
@@ -636,73 +621,58 @@
       "id" : "_xeLatPmXEe2uyaIG4cVC_w",
       "name" : "file_name"
     }, {
-      "id" : "_gMVvZvwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Server"
+      "id" : "_yV0BgQjmEe6_U5AZC_1q2A",
+      "name" : "transient_temp_path"
     }, {
-      "id" : "_gMVvZ_wcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Login"
+      "id" : "_5GYnNSVSEe65zJkEvkXPsw",
+      "name" : "mysql_host"
     }, {
-      "id" : "_gMVvaPwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Password"
+      "id" : "_5GYnNiVSEe65zJkEvkXPsw",
+      "name" : "mysql_port"
     }, {
-      "id" : "_gMVvafwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Port"
+      "id" : "_5GYnNyVSEe65zJkEvkXPsw",
+      "name" : "mysql_database"
     }, {
-      "id" : "_gMVvavwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Database"
+      "id" : "_5GYnOCVSEe65zJkEvkXPsw",
+      "name" : "mysql_username"
     }, {
-      "id" : "_gMVva_wcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Schema"
-    }, {
-      "id" : "_kswxIPwdEe2SUr_mCINuVA",
-      "name" : "audit_table_ftp_count"
-    }, {
-      "id" : "_i0r_wPweEe2SUr_mCINuVA",
-      "name" : "active_flag"
-    }, {
-      "id" : "_xYK6gfwiEe2SUr_mCINuVA",
-      "name" : "vm_vertica_AdditionalParams"
+      "id" : "_5GYnOSVSEe65zJkEvkXPsw",
+      "name" : "mysql_password"
     } ]
   }, {
     "contextName" : "DEV",
-    "repoId" : "_Nu_i8PwfEe2SUr_mCINuVA",
+    "repoId" : "_hfckgB7jEe6hs-C6G1UkSw",
     "parameterList" : [ {
-      "id" : "_UV0tAvwfEe2SUr_mCINuVA",
-      "name" : "file_domain"
+      "id" : "_hfpY1h7jEe6hs-C6G1UkSw",
+      "name" : "schema"
     }, {
-      "id" : "_UV0tA_wfEe2SUr_mCINuVA",
-      "name" : "file_version"
+      "id" : "_hfpY0x7jEe6hs-C6G1UkSw",
+      "name" : "password"
     }, {
-      "id" : "_UV0tAPwfEe2SUr_mCINuVA",
-      "name" : "file_seq_no"
+      "id" : "_hfpY1R7jEe6hs-C6G1UkSw",
+      "name" : "database"
     }, {
-      "id" : "_RWKogPwgEe2SUr_mCINuVA",
-      "name" : "local_ftp_dir_bkp"
+      "id" : "_hfpY2B7jEe6hs-C6G1UkSw",
+      "name" : "role"
     }, {
-      "id" : "_xSJSYPwfEe2SUr_mCINuVA",
-      "name" : "file_periodstart"
+      "id" : "_hfpY0h7jEe6hs-C6G1UkSw",
+      "name" : "user_id"
     }, {
-      "id" : "_RRTZ0PwkEe2SUr_mCINuVA",
-      "name" : "auditkey_sufix"
+      "id" : "_hfpY2R7jEe6hs-C6G1UkSw",
+      "name" : "region_id"
     }, {
-      "id" : "_UV0tAfwfEe2SUr_mCINuVA",
-      "name" : "auditkey"
+      "id" : "_hfpY1B7jEe6hs-C6G1UkSw",
+      "name" : "warehouse"
     }, {
-      "id" : "_xSJSYfwfEe2SUr_mCINuVA",
-      "name" : "file_periodend"
+      "id" : "_hfpY0R7jEe6hs-C6G1UkSw",
+      "name" : "account"
     }, {
-      "id" : "_-eBUcPw4Ee2SUr_mCINuVA",
-      "name" : "src_cnt"
-    }, {
-      "id" : "_RWKogfwgEe2SUr_mCINuVA",
-      "name" : "file_name_mask"
-    }, {
-      "id" : "_RWKogvwgEe2SUr_mCINuVA",
-      "name" : "src_file_path"
+      "id" : "_hfpY1x7jEe6hs-C6G1UkSw",
+      "name" : "additional_params"
     } ]
   }, {
     "contextName" : "Default",
-    "repoId" : "_gTAsAPwEEe2SUr_mCINuVA",
+    "repoId" : "_YajsMCU8Ee65zJkEvkXPsw",
     "parameterList" : [ {
       "id" : "_2BPQcHKaEeyjR64iB-IX8Q",
       "name" : "stage_id"
@@ -986,69 +956,54 @@
       "id" : "_xeLasPmXEe2uyaIG4cVC_w",
       "name" : "file_name"
     }, {
-      "id" : "_gMVvYPwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Server"
+      "id" : "_yV0BgAjmEe6_U5AZC_1q2A",
+      "name" : "transient_temp_path"
     }, {
-      "id" : "_gMVvYfwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Login"
+      "id" : "_5GYnMCVSEe65zJkEvkXPsw",
+      "name" : "mysql_host"
     }, {
-      "id" : "_gMVvYvwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Password"
+      "id" : "_5GYnMSVSEe65zJkEvkXPsw",
+      "name" : "mysql_port"
     }, {
-      "id" : "_gMVvY_wcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Port"
+      "id" : "_5GYnMiVSEe65zJkEvkXPsw",
+      "name" : "mysql_database"
     }, {
-      "id" : "_gMVvZPwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Database"
+      "id" : "_5GYnMyVSEe65zJkEvkXPsw",
+      "name" : "mysql_username"
     }, {
-      "id" : "_gMVvZfwcEe2SUr_mCINuVA",
-      "name" : "vm_vertica_Schema"
-    }, {
-      "id" : "_kswKEPwdEe2SUr_mCINuVA",
-      "name" : "audit_table_ftp_count"
-    }, {
-      "id" : "_i0rYsPweEe2SUr_mCINuVA",
-      "name" : "active_flag"
-    }, {
-      "id" : "_xYK6gPwiEe2SUr_mCINuVA",
-      "name" : "vm_vertica_AdditionalParams"
+      "id" : "_5GYnNCVSEe65zJkEvkXPsw",
+      "name" : "mysql_password"
     } ]
   }, {
     "contextName" : "Default",
-    "repoId" : "_Nu_i8PwfEe2SUr_mCINuVA",
+    "repoId" : "_hfckgB7jEe6hs-C6G1UkSw",
     "parameterList" : [ {
-      "id" : "_UV0tAvwfEe2SUr_mCINuVA",
-      "name" : "file_domain"
+      "id" : "_hfpY1h7jEe6hs-C6G1UkSw",
+      "name" : "schema"
     }, {
-      "id" : "_UV0tA_wfEe2SUr_mCINuVA",
-      "name" : "file_version"
+      "id" : "_hfpY0x7jEe6hs-C6G1UkSw",
+      "name" : "password"
     }, {
-      "id" : "_UV0tAPwfEe2SUr_mCINuVA",
-      "name" : "file_seq_no"
+      "id" : "_hfpY1R7jEe6hs-C6G1UkSw",
+      "name" : "database"
     }, {
-      "id" : "_RWKogPwgEe2SUr_mCINuVA",
-      "name" : "local_ftp_dir_bkp"
+      "id" : "_hfpY2B7jEe6hs-C6G1UkSw",
+      "name" : "role"
     }, {
-      "id" : "_xSJSYPwfEe2SUr_mCINuVA",
-      "name" : "file_periodstart"
+      "id" : "_hfpY0h7jEe6hs-C6G1UkSw",
+      "name" : "user_id"
     }, {
-      "id" : "_RRTZ0PwkEe2SUr_mCINuVA",
-      "name" : "auditkey_sufix"
+      "id" : "_hfpY2R7jEe6hs-C6G1UkSw",
+      "name" : "region_id"
     }, {
-      "id" : "_UV0tAfwfEe2SUr_mCINuVA",
-      "name" : "auditkey"
+      "id" : "_hfpY1B7jEe6hs-C6G1UkSw",
+      "name" : "warehouse"
     }, {
-      "id" : "_xSJSYfwfEe2SUr_mCINuVA",
-      "name" : "file_periodend"
+      "id" : "_hfpY0R7jEe6hs-C6G1UkSw",
+      "name" : "account"
     }, {
-      "id" : "_-eBUcPw4Ee2SUr_mCINuVA",
-      "name" : "src_cnt"
-    }, {
-      "id" : "_RWKogfwgEe2SUr_mCINuVA",
-      "name" : "file_name_mask"
-    }, {
-      "id" : "_RWKogvwgEe2SUr_mCINuVA",
-      "name" : "src_file_path"
+      "id" : "_hfpY1x7jEe6hs-C6G1UkSw",
+      "name" : "additional_params"
     } ]
   } ]
 }
