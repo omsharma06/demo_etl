@@ -1,359 +1,341 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PROD">
-    <contextParameter comment="" internalId="_BnD04PwsEe2SUr_mCINuVA" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnD04fwsEe2SUr_mCINuVA" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD04vwsEe2SUr_mCINuVA" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD04_wsEe2SUr_mCINuVA" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD05PwsEe2SUr_mCINuVA" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD05fwsEe2SUr_mCINuVA" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD05vwsEe2SUr_mCINuVA" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD05_wsEe2SUr_mCINuVA" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD06PwsEe2SUr_mCINuVA" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD06fwsEe2SUr_mCINuVA" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD06vwsEe2SUr_mCINuVA" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD06_wsEe2SUr_mCINuVA" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD07PwsEe2SUr_mCINuVA" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD07fwsEe2SUr_mCINuVA" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD07vwsEe2SUr_mCINuVA" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD07_wsEe2SUr_mCINuVA" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD08PwsEe2SUr_mCINuVA" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD08fwsEe2SUr_mCINuVA" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD08vwsEe2SUr_mCINuVA" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD08_wsEe2SUr_mCINuVA" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD09PwsEe2SUr_mCINuVA" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD09fwsEe2SUr_mCINuVA" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnD09vwsEe2SUr_mCINuVA" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Boolean" value="false"/>
-    <contextParameter comment="" internalId="_BnD09_wsEe2SUr_mCINuVA" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0-PwsEe2SUr_mCINuVA" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0-fwsEe2SUr_mCINuVA" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0-vwsEe2SUr_mCINuVA" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0-_wsEe2SUr_mCINuVA" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0_PwsEe2SUr_mCINuVA" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0_fwsEe2SUr_mCINuVA" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0_vwsEe2SUr_mCINuVA" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD0__wsEe2SUr_mCINuVA" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1APwsEe2SUr_mCINuVA" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1AfwsEe2SUr_mCINuVA" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1AvwsEe2SUr_mCINuVA" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1A_wsEe2SUr_mCINuVA" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1BPwsEe2SUr_mCINuVA" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1BfwsEe2SUr_mCINuVA" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1BvwsEe2SUr_mCINuVA" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1B_wsEe2SUr_mCINuVA" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1CPwsEe2SUr_mCINuVA" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1CfwsEe2SUr_mCINuVA" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1CvwsEe2SUr_mCINuVA" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1C_wsEe2SUr_mCINuVA" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1DPwsEe2SUr_mCINuVA" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1DfwsEe2SUr_mCINuVA" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1DvwsEe2SUr_mCINuVA" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnD1D_wsEe2SUr_mCINuVA" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1EPwsEe2SUr_mCINuVA" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1EfwsEe2SUr_mCINuVA" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1EvwsEe2SUr_mCINuVA" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD1E_wsEe2SUr_mCINuVA" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnD1FPwsEe2SUr_mCINuVA" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1FfwsEe2SUr_mCINuVA" name="month" prompt="month?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1FvwsEe2SUr_mCINuVA" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1F_wsEe2SUr_mCINuVA" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1GPwsEe2SUr_mCINuVA" name="year" prompt="year?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1GfwsEe2SUr_mCINuVA" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1GvwsEe2SUr_mCINuVA" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1G_wsEe2SUr_mCINuVA" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1HPwsEe2SUr_mCINuVA" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1HfwsEe2SUr_mCINuVA" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Boolean" value=""/>
-    <contextParameter comment="" internalId="_BnD1HvwsEe2SUr_mCINuVA" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1H_wsEe2SUr_mCINuVA" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1IPwsEe2SUr_mCINuVA" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1IfwsEe2SUr_mCINuVA" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1IvwsEe2SUr_mCINuVA" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1I_wsEe2SUr_mCINuVA" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1JPwsEe2SUr_mCINuVA" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1JfwsEe2SUr_mCINuVA" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1JvwsEe2SUr_mCINuVA" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1J_wsEe2SUr_mCINuVA" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1KPwsEe2SUr_mCINuVA" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1KfwsEe2SUr_mCINuVA" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1KvwsEe2SUr_mCINuVA" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1K_wsEe2SUr_mCINuVA" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1LPwsEe2SUr_mCINuVA" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1LfwsEe2SUr_mCINuVA" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnD1LvwsEe2SUr_mCINuVA" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1L_wsEe2SUr_mCINuVA" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1MPwsEe2SUr_mCINuVA" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1MfwsEe2SUr_mCINuVA" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Date" value=""/>
-    <contextParameter comment="" internalId="_BnD1MvwsEe2SUr_mCINuVA" name="env" prompt="env?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1M_wsEe2SUr_mCINuVA" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1NPwsEe2SUr_mCINuVA" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1NfwsEe2SUr_mCINuVA" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnD1NvwsEe2SUr_mCINuVA" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1N_wsEe2SUr_mCINuVA" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1OPwsEe2SUr_mCINuVA" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1OfwsEe2SUr_mCINuVA" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1OvwsEe2SUr_mCINuVA" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1O_wsEe2SUr_mCINuVA" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1PPwsEe2SUr_mCINuVA" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1PfwsEe2SUr_mCINuVA" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1PvwsEe2SUr_mCINuVA" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1P_wsEe2SUr_mCINuVA" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1QPwsEe2SUr_mCINuVA" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1QfwsEe2SUr_mCINuVA" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1QvwsEe2SUr_mCINuVA" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1Q_wsEe2SUr_mCINuVA" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1RPwsEe2SUr_mCINuVA" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1RfwsEe2SUr_mCINuVA" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnD1RvwsEe2SUr_mCINuVA" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzGqoPw6Ee2SUr_mCINuVA" name="file_domain" prompt="file_domain?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzGqofw6Ee2SUr_mCINuVA" name="file_version" prompt="file_version?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRsPw6Ee2SUr_mCINuVA" name="file_seq_no" prompt="file_seq_no?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_UzHRsfw6Ee2SUr_mCINuVA" name="local_ftp_dir_bkp" prompt="local_ftp_dir_bkp?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="/home/om/ftp_backup/"/>
-    <contextParameter comment="" internalId="_UzHRsvw6Ee2SUr_mCINuVA" name="file_periodstart" prompt="file_periodstart?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRs_w6Ee2SUr_mCINuVA" name="auditkey_sufix" prompt="auditkey_sufix?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="VOUCHERREFILLHISTORY_ETL"/>
-    <contextParameter comment="" internalId="_UzHRtPw6Ee2SUr_mCINuVA" name="auditkey" prompt="auditkey?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRtfw6Ee2SUr_mCINuVA" name="file_periodend" prompt="file_periodend?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRtvw6Ee2SUr_mCINuVA" name="src_cnt" prompt="src_cnt?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_UzHRt_w6Ee2SUr_mCINuVA" name="file_name_mask" prompt="file_name_mask?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="*.csv"/>
-    <contextParameter comment="" internalId="_UzHRuPw6Ee2SUr_mCINuVA" name="src_file_path" prompt="src_file_path?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="/home/om/nobill/"/>
-    <contextParameter comment="" internalId="_Kc_xYARcEe6i___fDFlWeA" name="object_name_nobill" prompt="object_name_nobill?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DgCVpEe65zJkEvkXPsw" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07DgSVpEe65zJkEvkXPsw" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DgiVpEe65zJkEvkXPsw" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DgyVpEe65zJkEvkXPsw" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DhCVpEe65zJkEvkXPsw" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DhSVpEe65zJkEvkXPsw" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DhiVpEe65zJkEvkXPsw" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DhyVpEe65zJkEvkXPsw" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DiCVpEe65zJkEvkXPsw" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DiSVpEe65zJkEvkXPsw" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DiiVpEe65zJkEvkXPsw" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DiyVpEe65zJkEvkXPsw" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DjCVpEe65zJkEvkXPsw" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DjSVpEe65zJkEvkXPsw" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DjiVpEe65zJkEvkXPsw" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DjyVpEe65zJkEvkXPsw" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DkCVpEe65zJkEvkXPsw" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DkSVpEe65zJkEvkXPsw" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DkiVpEe65zJkEvkXPsw" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DkyVpEe65zJkEvkXPsw" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DlCVpEe65zJkEvkXPsw" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DlSVpEe65zJkEvkXPsw" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07DliVpEe65zJkEvkXPsw" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" internalId="_K07DlyVpEe65zJkEvkXPsw" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DmCVpEe65zJkEvkXPsw" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DmSVpEe65zJkEvkXPsw" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DmiVpEe65zJkEvkXPsw" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DmyVpEe65zJkEvkXPsw" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DnCVpEe65zJkEvkXPsw" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DnSVpEe65zJkEvkXPsw" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DniVpEe65zJkEvkXPsw" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DnyVpEe65zJkEvkXPsw" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DoCVpEe65zJkEvkXPsw" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DoSVpEe65zJkEvkXPsw" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DoiVpEe65zJkEvkXPsw" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DoyVpEe65zJkEvkXPsw" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DpCVpEe65zJkEvkXPsw" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DpSVpEe65zJkEvkXPsw" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DpiVpEe65zJkEvkXPsw" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DpyVpEe65zJkEvkXPsw" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DqCVpEe65zJkEvkXPsw" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DqSVpEe65zJkEvkXPsw" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DqiVpEe65zJkEvkXPsw" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DqyVpEe65zJkEvkXPsw" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DrCVpEe65zJkEvkXPsw" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DrSVpEe65zJkEvkXPsw" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DriVpEe65zJkEvkXPsw" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07DryVpEe65zJkEvkXPsw" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DsCVpEe65zJkEvkXPsw" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DsSVpEe65zJkEvkXPsw" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DsiVpEe65zJkEvkXPsw" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DsyVpEe65zJkEvkXPsw" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07DtCVpEe65zJkEvkXPsw" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DtSVpEe65zJkEvkXPsw" name="month" prompt="month?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DtiVpEe65zJkEvkXPsw" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DtyVpEe65zJkEvkXPsw" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DuCVpEe65zJkEvkXPsw" name="year" prompt="year?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DuSVpEe65zJkEvkXPsw" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DuiVpEe65zJkEvkXPsw" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DuyVpEe65zJkEvkXPsw" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DvCVpEe65zJkEvkXPsw" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DvSVpEe65zJkEvkXPsw" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Boolean" value=""/>
+    <contextParameter comment="" internalId="_K07DviVpEe65zJkEvkXPsw" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DvyVpEe65zJkEvkXPsw" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DwCVpEe65zJkEvkXPsw" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DwSVpEe65zJkEvkXPsw" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DwiVpEe65zJkEvkXPsw" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DwyVpEe65zJkEvkXPsw" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DxCVpEe65zJkEvkXPsw" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DxSVpEe65zJkEvkXPsw" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DxiVpEe65zJkEvkXPsw" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DxyVpEe65zJkEvkXPsw" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DyCVpEe65zJkEvkXPsw" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DySVpEe65zJkEvkXPsw" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DyiVpEe65zJkEvkXPsw" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DyyVpEe65zJkEvkXPsw" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DzCVpEe65zJkEvkXPsw" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DzSVpEe65zJkEvkXPsw" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07DziVpEe65zJkEvkXPsw" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07DzyVpEe65zJkEvkXPsw" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D0CVpEe65zJkEvkXPsw" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D0SVpEe65zJkEvkXPsw" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_K07D0iVpEe65zJkEvkXPsw" name="env" prompt="env?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D0yVpEe65zJkEvkXPsw" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D1CVpEe65zJkEvkXPsw" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D1SVpEe65zJkEvkXPsw" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07D1iVpEe65zJkEvkXPsw" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D1yVpEe65zJkEvkXPsw" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D2CVpEe65zJkEvkXPsw" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D2SVpEe65zJkEvkXPsw" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D2iVpEe65zJkEvkXPsw" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D2yVpEe65zJkEvkXPsw" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D3CVpEe65zJkEvkXPsw" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D3SVpEe65zJkEvkXPsw" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D3iVpEe65zJkEvkXPsw" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D3yVpEe65zJkEvkXPsw" name="mysql_host" prompt="mysql_host?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D4CVpEe65zJkEvkXPsw" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D4SVpEe65zJkEvkXPsw" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D4iVpEe65zJkEvkXPsw" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D4yVpEe65zJkEvkXPsw" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D5CVpEe65zJkEvkXPsw" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D5SVpEe65zJkEvkXPsw" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D5iVpEe65zJkEvkXPsw" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D5yVpEe65zJkEvkXPsw" name="role" prompt="role?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D6CVpEe65zJkEvkXPsw" name="user_id" prompt="user_id?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D6SVpEe65zJkEvkXPsw" name="region_id" prompt="region_id?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D6iVpEe65zJkEvkXPsw" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D6yVpEe65zJkEvkXPsw" name="account" prompt="account?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D7CVpEe65zJkEvkXPsw" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="DEV">
-    <contextParameter comment="" internalId="_BnFDCvwsEe2SUr_mCINuVA" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDC_wsEe2SUr_mCINuVA" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDDPwsEe2SUr_mCINuVA" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDDfwsEe2SUr_mCINuVA" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDDvwsEe2SUr_mCINuVA" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDD_wsEe2SUr_mCINuVA" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDEPwsEe2SUr_mCINuVA" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDEfwsEe2SUr_mCINuVA" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDEvwsEe2SUr_mCINuVA" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDE_wsEe2SUr_mCINuVA" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDFPwsEe2SUr_mCINuVA" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDFfwsEe2SUr_mCINuVA" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDFvwsEe2SUr_mCINuVA" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDF_wsEe2SUr_mCINuVA" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDGPwsEe2SUr_mCINuVA" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDGfwsEe2SUr_mCINuVA" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDGvwsEe2SUr_mCINuVA" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDG_wsEe2SUr_mCINuVA" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDHPwsEe2SUr_mCINuVA" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDHfwsEe2SUr_mCINuVA" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDHvwsEe2SUr_mCINuVA" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDH_wsEe2SUr_mCINuVA" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDIPwsEe2SUr_mCINuVA" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Boolean" value="false"/>
-    <contextParameter comment="" internalId="_BnFDIfwsEe2SUr_mCINuVA" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDIvwsEe2SUr_mCINuVA" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDI_wsEe2SUr_mCINuVA" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDJPwsEe2SUr_mCINuVA" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDJfwsEe2SUr_mCINuVA" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDJvwsEe2SUr_mCINuVA" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDJ_wsEe2SUr_mCINuVA" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDKPwsEe2SUr_mCINuVA" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDKfwsEe2SUr_mCINuVA" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDKvwsEe2SUr_mCINuVA" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDK_wsEe2SUr_mCINuVA" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDLPwsEe2SUr_mCINuVA" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDLfwsEe2SUr_mCINuVA" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDLvwsEe2SUr_mCINuVA" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDL_wsEe2SUr_mCINuVA" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDMPwsEe2SUr_mCINuVA" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDMfwsEe2SUr_mCINuVA" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDMvwsEe2SUr_mCINuVA" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDM_wsEe2SUr_mCINuVA" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDNPwsEe2SUr_mCINuVA" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDNfwsEe2SUr_mCINuVA" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDNvwsEe2SUr_mCINuVA" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDN_wsEe2SUr_mCINuVA" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDOPwsEe2SUr_mCINuVA" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDOfwsEe2SUr_mCINuVA" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDOvwsEe2SUr_mCINuVA" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDO_wsEe2SUr_mCINuVA" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDPPwsEe2SUr_mCINuVA" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDPfwsEe2SUr_mCINuVA" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDPvwsEe2SUr_mCINuVA" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDP_wsEe2SUr_mCINuVA" name="month" prompt="month?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDQPwsEe2SUr_mCINuVA" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDQfwsEe2SUr_mCINuVA" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDQvwsEe2SUr_mCINuVA" name="year" prompt="year?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDQ_wsEe2SUr_mCINuVA" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDRPwsEe2SUr_mCINuVA" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDRfwsEe2SUr_mCINuVA" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDRvwsEe2SUr_mCINuVA" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDR_wsEe2SUr_mCINuVA" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Boolean" value=""/>
-    <contextParameter comment="" internalId="_BnFDSPwsEe2SUr_mCINuVA" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDSfwsEe2SUr_mCINuVA" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDSvwsEe2SUr_mCINuVA" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDS_wsEe2SUr_mCINuVA" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDTPwsEe2SUr_mCINuVA" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDTfwsEe2SUr_mCINuVA" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDTvwsEe2SUr_mCINuVA" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDT_wsEe2SUr_mCINuVA" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDUPwsEe2SUr_mCINuVA" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDUfwsEe2SUr_mCINuVA" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDUvwsEe2SUr_mCINuVA" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDU_wsEe2SUr_mCINuVA" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDVPwsEe2SUr_mCINuVA" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDVfwsEe2SUr_mCINuVA" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDVvwsEe2SUr_mCINuVA" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDV_wsEe2SUr_mCINuVA" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDWPwsEe2SUr_mCINuVA" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDWfwsEe2SUr_mCINuVA" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDWvwsEe2SUr_mCINuVA" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDW_wsEe2SUr_mCINuVA" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Date" value=""/>
-    <contextParameter comment="" internalId="_BnFDXPwsEe2SUr_mCINuVA" name="env" prompt="env?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDXfwsEe2SUr_mCINuVA" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDXvwsEe2SUr_mCINuVA" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDX_wsEe2SUr_mCINuVA" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDYPwsEe2SUr_mCINuVA" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDYfwsEe2SUr_mCINuVA" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDYvwsEe2SUr_mCINuVA" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDY_wsEe2SUr_mCINuVA" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDZPwsEe2SUr_mCINuVA" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDZfwsEe2SUr_mCINuVA" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDZvwsEe2SUr_mCINuVA" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDZ_wsEe2SUr_mCINuVA" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDaPwsEe2SUr_mCINuVA" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDafwsEe2SUr_mCINuVA" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDavwsEe2SUr_mCINuVA" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDa_wsEe2SUr_mCINuVA" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDbPwsEe2SUr_mCINuVA" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDbfwsEe2SUr_mCINuVA" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDbvwsEe2SUr_mCINuVA" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDb_wsEe2SUr_mCINuVA" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDcPwsEe2SUr_mCINuVA" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRufw6Ee2SUr_mCINuVA" name="file_domain" prompt="file_domain?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRuvw6Ee2SUr_mCINuVA" name="file_version" prompt="file_version?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRu_w6Ee2SUr_mCINuVA" name="file_seq_no" prompt="file_seq_no?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_UzHRvPw6Ee2SUr_mCINuVA" name="local_ftp_dir_bkp" prompt="local_ftp_dir_bkp?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="/home/om/ftp_backup/"/>
-    <contextParameter comment="" internalId="_UzHRvfw6Ee2SUr_mCINuVA" name="file_periodstart" prompt="file_periodstart?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRvvw6Ee2SUr_mCINuVA" name="auditkey_sufix" prompt="auditkey_sufix?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="VOUCHERREFILLHISTORY_ETL"/>
-    <contextParameter comment="" internalId="_UzHRv_w6Ee2SUr_mCINuVA" name="auditkey" prompt="auditkey?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRwPw6Ee2SUr_mCINuVA" name="file_periodend" prompt="file_periodend?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRwfw6Ee2SUr_mCINuVA" name="src_cnt" prompt="src_cnt?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_UzHRwvw6Ee2SUr_mCINuVA" name="file_name_mask" prompt="file_name_mask?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="*.csv"/>
-    <contextParameter comment="" internalId="_UzHRw_w6Ee2SUr_mCINuVA" name="src_file_path" prompt="src_file_path?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="/home/om/nobill/"/>
-    <contextParameter comment="" internalId="_Kc_xYQRcEe6i___fDFlWeA" name="object_name_nobill" prompt="object_name_nobill?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D7SVpEe65zJkEvkXPsw" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07D7iVpEe65zJkEvkXPsw" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D7yVpEe65zJkEvkXPsw" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D8CVpEe65zJkEvkXPsw" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D8SVpEe65zJkEvkXPsw" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D8iVpEe65zJkEvkXPsw" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D8yVpEe65zJkEvkXPsw" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D9CVpEe65zJkEvkXPsw" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D9SVpEe65zJkEvkXPsw" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07D9iVpEe65zJkEvkXPsw" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D9yVpEe65zJkEvkXPsw" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07D-CVpEe65zJkEvkXPsw" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07D-SVpEe65zJkEvkXPsw" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D-iVpEe65zJkEvkXPsw" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D-yVpEe65zJkEvkXPsw" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07D_CVpEe65zJkEvkXPsw" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07D_SVpEe65zJkEvkXPsw" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07D_iVpEe65zJkEvkXPsw" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07D_yVpEe65zJkEvkXPsw" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EACVpEe65zJkEvkXPsw" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EASVpEe65zJkEvkXPsw" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EAiVpEe65zJkEvkXPsw" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EAyVpEe65zJkEvkXPsw" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" internalId="_K07EBCVpEe65zJkEvkXPsw" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EBSVpEe65zJkEvkXPsw" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EBiVpEe65zJkEvkXPsw" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EByVpEe65zJkEvkXPsw" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ECCVpEe65zJkEvkXPsw" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ECSVpEe65zJkEvkXPsw" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ECiVpEe65zJkEvkXPsw" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ECyVpEe65zJkEvkXPsw" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EDCVpEe65zJkEvkXPsw" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EDSVpEe65zJkEvkXPsw" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EDiVpEe65zJkEvkXPsw" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EDyVpEe65zJkEvkXPsw" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EECVpEe65zJkEvkXPsw" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EESVpEe65zJkEvkXPsw" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EEiVpEe65zJkEvkXPsw" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EEyVpEe65zJkEvkXPsw" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EFCVpEe65zJkEvkXPsw" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EFSVpEe65zJkEvkXPsw" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EFiVpEe65zJkEvkXPsw" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EFyVpEe65zJkEvkXPsw" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EGCVpEe65zJkEvkXPsw" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EGSVpEe65zJkEvkXPsw" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EGiVpEe65zJkEvkXPsw" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EGyVpEe65zJkEvkXPsw" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EHCVpEe65zJkEvkXPsw" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EHSVpEe65zJkEvkXPsw" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EHiVpEe65zJkEvkXPsw" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EHyVpEe65zJkEvkXPsw" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EICVpEe65zJkEvkXPsw" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EISVpEe65zJkEvkXPsw" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EIiVpEe65zJkEvkXPsw" name="month" prompt="month?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EIyVpEe65zJkEvkXPsw" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EJCVpEe65zJkEvkXPsw" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EJSVpEe65zJkEvkXPsw" name="year" prompt="year?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EJiVpEe65zJkEvkXPsw" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EJyVpEe65zJkEvkXPsw" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EKCVpEe65zJkEvkXPsw" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EKSVpEe65zJkEvkXPsw" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EKiVpEe65zJkEvkXPsw" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Boolean" value=""/>
+    <contextParameter comment="" internalId="_K07EKyVpEe65zJkEvkXPsw" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ELCVpEe65zJkEvkXPsw" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ELSVpEe65zJkEvkXPsw" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ELiVpEe65zJkEvkXPsw" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ELyVpEe65zJkEvkXPsw" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EMCVpEe65zJkEvkXPsw" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EMSVpEe65zJkEvkXPsw" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EMiVpEe65zJkEvkXPsw" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EMyVpEe65zJkEvkXPsw" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ENCVpEe65zJkEvkXPsw" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ENSVpEe65zJkEvkXPsw" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ENiVpEe65zJkEvkXPsw" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ENyVpEe65zJkEvkXPsw" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EOCVpEe65zJkEvkXPsw" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EOSVpEe65zJkEvkXPsw" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EOiVpEe65zJkEvkXPsw" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EOyVpEe65zJkEvkXPsw" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EPCVpEe65zJkEvkXPsw" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EPSVpEe65zJkEvkXPsw" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EPiVpEe65zJkEvkXPsw" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_K07EPyVpEe65zJkEvkXPsw" name="env" prompt="env?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EQCVpEe65zJkEvkXPsw" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EQSVpEe65zJkEvkXPsw" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EQiVpEe65zJkEvkXPsw" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EQyVpEe65zJkEvkXPsw" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ERCVpEe65zJkEvkXPsw" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ERSVpEe65zJkEvkXPsw" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ERiVpEe65zJkEvkXPsw" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ERyVpEe65zJkEvkXPsw" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ESCVpEe65zJkEvkXPsw" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ESSVpEe65zJkEvkXPsw" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ESiVpEe65zJkEvkXPsw" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ESyVpEe65zJkEvkXPsw" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ETCVpEe65zJkEvkXPsw" name="mysql_host" prompt="mysql_host?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ETSVpEe65zJkEvkXPsw" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ETiVpEe65zJkEvkXPsw" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ETyVpEe65zJkEvkXPsw" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EUCVpEe65zJkEvkXPsw" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EUSVpEe65zJkEvkXPsw" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EUiVpEe65zJkEvkXPsw" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EUyVpEe65zJkEvkXPsw" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EVCVpEe65zJkEvkXPsw" name="role" prompt="role?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EVSVpEe65zJkEvkXPsw" name="user_id" prompt="user_id?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EViVpEe65zJkEvkXPsw" name="region_id" prompt="region_id?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EVyVpEe65zJkEvkXPsw" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EWCVpEe65zJkEvkXPsw" name="account" prompt="account?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EWSVpEe65zJkEvkXPsw" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_BnFDe_wsEe2SUr_mCINuVA" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDfPwsEe2SUr_mCINuVA" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDffwsEe2SUr_mCINuVA" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDfvwsEe2SUr_mCINuVA" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDf_wsEe2SUr_mCINuVA" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDgPwsEe2SUr_mCINuVA" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDgfwsEe2SUr_mCINuVA" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDgvwsEe2SUr_mCINuVA" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDg_wsEe2SUr_mCINuVA" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDhPwsEe2SUr_mCINuVA" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDhfwsEe2SUr_mCINuVA" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDhvwsEe2SUr_mCINuVA" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDh_wsEe2SUr_mCINuVA" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDiPwsEe2SUr_mCINuVA" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDifwsEe2SUr_mCINuVA" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDivwsEe2SUr_mCINuVA" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDi_wsEe2SUr_mCINuVA" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDjPwsEe2SUr_mCINuVA" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDjfwsEe2SUr_mCINuVA" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDjvwsEe2SUr_mCINuVA" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDj_wsEe2SUr_mCINuVA" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDkPwsEe2SUr_mCINuVA" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDkfwsEe2SUr_mCINuVA" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Boolean" value="false"/>
-    <contextParameter comment="" internalId="_BnFDkvwsEe2SUr_mCINuVA" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDk_wsEe2SUr_mCINuVA" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDlPwsEe2SUr_mCINuVA" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDlfwsEe2SUr_mCINuVA" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDlvwsEe2SUr_mCINuVA" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDl_wsEe2SUr_mCINuVA" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDmPwsEe2SUr_mCINuVA" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDmfwsEe2SUr_mCINuVA" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDmvwsEe2SUr_mCINuVA" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDm_wsEe2SUr_mCINuVA" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDnPwsEe2SUr_mCINuVA" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDnfwsEe2SUr_mCINuVA" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDnvwsEe2SUr_mCINuVA" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDn_wsEe2SUr_mCINuVA" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDoPwsEe2SUr_mCINuVA" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDofwsEe2SUr_mCINuVA" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDovwsEe2SUr_mCINuVA" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDo_wsEe2SUr_mCINuVA" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDpPwsEe2SUr_mCINuVA" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDpfwsEe2SUr_mCINuVA" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDpvwsEe2SUr_mCINuVA" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDp_wsEe2SUr_mCINuVA" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDqPwsEe2SUr_mCINuVA" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDqfwsEe2SUr_mCINuVA" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDqvwsEe2SUr_mCINuVA" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDq_wsEe2SUr_mCINuVA" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDrPwsEe2SUr_mCINuVA" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDrfwsEe2SUr_mCINuVA" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDrvwsEe2SUr_mCINuVA" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_BnFDr_wsEe2SUr_mCINuVA" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDsPwsEe2SUr_mCINuVA" name="month" prompt="month?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDsfwsEe2SUr_mCINuVA" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDsvwsEe2SUr_mCINuVA" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDs_wsEe2SUr_mCINuVA" name="year" prompt="year?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDtPwsEe2SUr_mCINuVA" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDtfwsEe2SUr_mCINuVA" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDtvwsEe2SUr_mCINuVA" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDt_wsEe2SUr_mCINuVA" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDuPwsEe2SUr_mCINuVA" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Boolean" value=""/>
-    <contextParameter comment="" internalId="_BnFDufwsEe2SUr_mCINuVA" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDuvwsEe2SUr_mCINuVA" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDu_wsEe2SUr_mCINuVA" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDvPwsEe2SUr_mCINuVA" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDvfwsEe2SUr_mCINuVA" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDvvwsEe2SUr_mCINuVA" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDv_wsEe2SUr_mCINuVA" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDwPwsEe2SUr_mCINuVA" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDwfwsEe2SUr_mCINuVA" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDwvwsEe2SUr_mCINuVA" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDw_wsEe2SUr_mCINuVA" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDxPwsEe2SUr_mCINuVA" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDxfwsEe2SUr_mCINuVA" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDxvwsEe2SUr_mCINuVA" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDx_wsEe2SUr_mCINuVA" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDyPwsEe2SUr_mCINuVA" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFDyfwsEe2SUr_mCINuVA" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDyvwsEe2SUr_mCINuVA" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDy_wsEe2SUr_mCINuVA" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDzPwsEe2SUr_mCINuVA" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Date" value=""/>
-    <contextParameter comment="" internalId="_BnFDzfwsEe2SUr_mCINuVA" name="env" prompt="env?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDzvwsEe2SUr_mCINuVA" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFDz_wsEe2SUr_mCINuVA" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD0PwsEe2SUr_mCINuVA" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BnFD0fwsEe2SUr_mCINuVA" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD0vwsEe2SUr_mCINuVA" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD0_wsEe2SUr_mCINuVA" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD1PwsEe2SUr_mCINuVA" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value="/home/om/contextfile/main_audit_vertica.txt"/>
-    <contextParameter comment="" internalId="_BnFD1fwsEe2SUr_mCINuVA" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD1vwsEe2SUr_mCINuVA" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD1_wsEe2SUr_mCINuVA" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value="/home/om/contextfile/context_file_nobill.txt"/>
-    <contextParameter comment="" internalId="_BnFD2PwsEe2SUr_mCINuVA" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD2fwsEe2SUr_mCINuVA" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD2vwsEe2SUr_mCINuVA" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD2_wsEe2SUr_mCINuVA" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD3PwsEe2SUr_mCINuVA" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD3fwsEe2SUr_mCINuVA" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD3vwsEe2SUr_mCINuVA" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD3_wsEe2SUr_mCINuVA" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD4PwsEe2SUr_mCINuVA" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BnFD4fwsEe2SUr_mCINuVA" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="_gTAsAPwEEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRxPw6Ee2SUr_mCINuVA" name="file_domain" prompt="file_domain?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRxfw6Ee2SUr_mCINuVA" name="file_version" prompt="file_version?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRxvw6Ee2SUr_mCINuVA" name="file_seq_no" prompt="file_seq_no?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_UzHRx_w6Ee2SUr_mCINuVA" name="local_ftp_dir_bkp" prompt="local_ftp_dir_bkp?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="/home/om/ftp_backup/"/>
-    <contextParameter comment="" internalId="_UzHRyPw6Ee2SUr_mCINuVA" name="file_periodstart" prompt="file_periodstart?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRyfw6Ee2SUr_mCINuVA" name="auditkey_sufix" prompt="auditkey_sufix?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="VOUCHERREFILLHISTORY_ETL"/>
-    <contextParameter comment="" internalId="_UzHRyvw6Ee2SUr_mCINuVA" name="auditkey" prompt="auditkey?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRy_w6Ee2SUr_mCINuVA" name="file_periodend" prompt="file_periodend?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_UzHRzPw6Ee2SUr_mCINuVA" name="src_cnt" prompt="src_cnt?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_Long" value=""/>
-    <contextParameter comment="" internalId="_UzHRzfw6Ee2SUr_mCINuVA" name="file_name_mask" prompt="file_name_mask?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="*.csv"/>
-    <contextParameter comment="" internalId="_UzHRzvw6Ee2SUr_mCINuVA" name="src_file_path" prompt="src_file_path?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value="/home/om/nobill/"/>
-    <contextParameter comment="" internalId="_Kc_xYgRcEe6i___fDFlWeA" name="object_name_nobill" prompt="object_name_nobill?" promptNeeded="false" repositoryContextId="_Nu_i8PwfEe2SUr_mCINuVA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EWiVpEe65zJkEvkXPsw" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EWyVpEe65zJkEvkXPsw" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EXCVpEe65zJkEvkXPsw" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EXSVpEe65zJkEvkXPsw" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EXiVpEe65zJkEvkXPsw" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EXyVpEe65zJkEvkXPsw" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EYCVpEe65zJkEvkXPsw" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EYSVpEe65zJkEvkXPsw" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EYiVpEe65zJkEvkXPsw" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EYyVpEe65zJkEvkXPsw" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EZCVpEe65zJkEvkXPsw" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EZSVpEe65zJkEvkXPsw" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EZiVpEe65zJkEvkXPsw" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EZyVpEe65zJkEvkXPsw" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EaCVpEe65zJkEvkXPsw" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EaSVpEe65zJkEvkXPsw" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EaiVpEe65zJkEvkXPsw" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EayVpEe65zJkEvkXPsw" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EbCVpEe65zJkEvkXPsw" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EbSVpEe65zJkEvkXPsw" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EbiVpEe65zJkEvkXPsw" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EbyVpEe65zJkEvkXPsw" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EcCVpEe65zJkEvkXPsw" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" internalId="_K07EcSVpEe65zJkEvkXPsw" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EciVpEe65zJkEvkXPsw" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EcyVpEe65zJkEvkXPsw" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EdCVpEe65zJkEvkXPsw" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EdSVpEe65zJkEvkXPsw" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EdiVpEe65zJkEvkXPsw" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EdyVpEe65zJkEvkXPsw" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EeCVpEe65zJkEvkXPsw" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EeSVpEe65zJkEvkXPsw" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EeiVpEe65zJkEvkXPsw" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EeyVpEe65zJkEvkXPsw" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EfCVpEe65zJkEvkXPsw" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EfSVpEe65zJkEvkXPsw" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EfiVpEe65zJkEvkXPsw" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EfyVpEe65zJkEvkXPsw" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EgCVpEe65zJkEvkXPsw" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EgSVpEe65zJkEvkXPsw" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EgiVpEe65zJkEvkXPsw" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EgyVpEe65zJkEvkXPsw" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EhCVpEe65zJkEvkXPsw" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EhSVpEe65zJkEvkXPsw" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EhiVpEe65zJkEvkXPsw" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EhyVpEe65zJkEvkXPsw" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EiCVpEe65zJkEvkXPsw" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EiSVpEe65zJkEvkXPsw" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EiiVpEe65zJkEvkXPsw" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EiyVpEe65zJkEvkXPsw" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EjCVpEe65zJkEvkXPsw" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EjSVpEe65zJkEvkXPsw" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Long" value=""/>
+    <contextParameter comment="" internalId="_K07EjiVpEe65zJkEvkXPsw" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EjyVpEe65zJkEvkXPsw" name="month" prompt="month?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EkCVpEe65zJkEvkXPsw" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EkSVpEe65zJkEvkXPsw" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EkiVpEe65zJkEvkXPsw" name="year" prompt="year?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EkyVpEe65zJkEvkXPsw" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ElCVpEe65zJkEvkXPsw" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ElSVpEe65zJkEvkXPsw" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EliVpEe65zJkEvkXPsw" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ElyVpEe65zJkEvkXPsw" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Boolean" value=""/>
+    <contextParameter comment="" internalId="_K07EmCVpEe65zJkEvkXPsw" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EmSVpEe65zJkEvkXPsw" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EmiVpEe65zJkEvkXPsw" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EmyVpEe65zJkEvkXPsw" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EnCVpEe65zJkEvkXPsw" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EnSVpEe65zJkEvkXPsw" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EniVpEe65zJkEvkXPsw" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EnyVpEe65zJkEvkXPsw" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EoCVpEe65zJkEvkXPsw" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EoSVpEe65zJkEvkXPsw" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EoiVpEe65zJkEvkXPsw" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EoyVpEe65zJkEvkXPsw" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EpCVpEe65zJkEvkXPsw" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EpSVpEe65zJkEvkXPsw" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EpiVpEe65zJkEvkXPsw" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EpyVpEe65zJkEvkXPsw" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EqCVpEe65zJkEvkXPsw" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EqSVpEe65zJkEvkXPsw" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EqiVpEe65zJkEvkXPsw" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EqyVpEe65zJkEvkXPsw" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_K07ErCVpEe65zJkEvkXPsw" name="env" prompt="env?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ErSVpEe65zJkEvkXPsw" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EriVpEe65zJkEvkXPsw" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EryVpEe65zJkEvkXPsw" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_K07EsCVpEe65zJkEvkXPsw" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EsSVpEe65zJkEvkXPsw" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EsiVpEe65zJkEvkXPsw" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EsyVpEe65zJkEvkXPsw" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value="D:/TALEND/AUDIT_FRAMEWORK/context_file/context_parameter_main.csv"/>
+    <contextParameter comment="" internalId="_K07EtCVpEe65zJkEvkXPsw" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EtSVpEe65zJkEvkXPsw" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EtiVpEe65zJkEvkXPsw" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EtyVpEe65zJkEvkXPsw" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EuCVpEe65zJkEvkXPsw" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EuSVpEe65zJkEvkXPsw" name="mysql_host" prompt="mysql_host?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EuiVpEe65zJkEvkXPsw" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EuyVpEe65zJkEvkXPsw" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EvCVpEe65zJkEvkXPsw" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EvSVpEe65zJkEvkXPsw" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EviVpEe65zJkEvkXPsw" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EvyVpEe65zJkEvkXPsw" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EwCVpEe65zJkEvkXPsw" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EwSVpEe65zJkEvkXPsw" name="role" prompt="role?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EwiVpEe65zJkEvkXPsw" name="user_id" prompt="user_id?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07EwyVpEe65zJkEvkXPsw" name="region_id" prompt="region_id?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ExCVpEe65zJkEvkXPsw" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ExSVpEe65zJkEvkXPsw" name="account" prompt="account?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_K07ExiVpEe65zJkEvkXPsw" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="192"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="256"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -393,7 +375,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:b2Iw1gzRq6viJLN9dP76f3SfM9cKF03sll7Gnz83"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:2GqJ0l0AOTf3khR8KzKZrtp+3UQgKI96Hegzl7Vq"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -408,7 +390,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/EMTC/virginMobile/Works/Install/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-20230428_0423-V8.0.1/Talend-Studio-20230428_0423-V8.0.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -428,7 +410,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:klO9+FKYORkwqPtGStXpbV66tzzWCb4IrnuebtCU"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:3p+3HGBnfzjWP48q4n2L16kt7B81w0W9agIjFRXk"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -457,140 +439,146 @@
     <routinesParameter id="_NDj79vI9Ee2OWpcH6cGz6w" name="TalendDate"/>
     <routinesParameter id="_ND7IUPI9Ee2OWpcH6cGz6w" name="TalendStringUtil"/>
     <routinesParameter id="_NDzMgPI9Ee2OWpcH6cGz6w" name="TalendString"/>
+    <routinesParameter id="_zGhZ4Bu3Ee6zxe_Nkd55mQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_zGY3ABu3Ee6zxe_Nkd55mQ" name="DataMasking"/>
+    <routinesParameter id="_zGuOMBu3Ee6zxe_Nkd55mQ" name="DQTechnical"/>
+    <routinesParameter id="_zGdIcBu3Ee6zxe_Nkd55mQ" name="DataQuality"/>
+    <routinesParameter id="_zGp8wBu3Ee6zxe_Nkd55mQ" name="DqStringHandling"/>
   </parameters>
-  <node componentName="tVerticaConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="-128">
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_2"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="VERTICA_9_0"/>
-    <elementParameter field="TEXT" name="HOST" value="context.vm_vertica_Server"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="HOST" value="context.mysql_host"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="VERTICA"/>
-    <elementParameter field="TEXT" name="PORT" value="context.vm_vertica_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.vm_vertica_Database"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.vm_vertica_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.vm_vertica_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zSkF3NO9BH8GT96WtVRvhwaIygWJytwOER8wdRYTlVjyUhZtmVaeJ8G2YOvIV1OW5qMFyHjSOA=="/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.vm_vertica_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PORT" value="context.mysql_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="context.mysql_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2E1Ft/od3RqlLTLE9YsB3Y0kk1dD5vxn9tn+9lvx7YfJbPYApkUY+V+98SOPT3JLQwA="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TEXT" name="LABEL" value="mysql_conn"/>
   </node>
-  <node componentName="tVerticaRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="-128">
+  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="-128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="VERTICA_9_0"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5433&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="VERTICA"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:3ZpUsez/u+0X9VCCu0WJWjqA3jks5snZCSTov6Pi"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Eiq0wfBPKI8165I7LqLJpVHbYVP9yfv6mk+Wk2SQ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;INSERT INTO &quot;+context.audit_table_task_history+&quot;&#13;&#10; SELECT * FROM  &quot;+context.audit_table_task+&quot;  &#13;&#10; WHERE UNIQUE_ID= '&quot;+context.stage_id+&quot;_&quot;+context.source_system+&quot;_&quot;+context.object_name+&quot;';&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
-    <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Only used if the query is an insert, an update or a delete."/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
     <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
-    <elementParameter field="TEXT" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="100"/>
-    <elementParameter field="TEXT" name="LABEL" value="move to audit_task_history from audit_task"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="move to job_audit_history from job_audit"/>
     <metadata connector="FLOW" name="tDBRow_1"/>
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tVerticaRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="-128">
+  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="-128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_2"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="VERTICA_9_0"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5433&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="VERTICA"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:MyKWwstJH6mJRdgtbNpQHLIkWPyN4tRpu4Mz5qiz"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:H73FezetssQYenjPJSmnpRwkmUn5cZ+zsia7d7m8"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value=" &quot;&#13;&#10;DELETE FROM &quot;+context.audit_table_task+&quot;  &#13;&#10;WHERE UNIQUE_ID= '&quot;+context.stage_id+&quot;_&quot;+context.source_system+&quot;_&quot;+context.object_name+&quot;';&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
-    <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Only used if the query is an insert, an update or a delete."/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
     <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
-    <elementParameter field="TEXT" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="100"/>
-    <elementParameter field="TEXT" name="LABEL" value="delete from audit_task_detail"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="delete from job_audit"/>
     <metadata connector="FLOW" name="tDBRow_2"/>
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tVerticaRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="-128">
+  <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="992" posY="-128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_3"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="VERTICA_9_0"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5433&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="VERTICA"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:oIyX7XvjtdWVqTvpSqTF52xs74vkWwDjBBEt2JPs"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Kg5inPEZwu+6JdNOv8cc4PAywxn51B9Q3DX21IND"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;INSERT INTO &quot;+context.audit_table_task+&quot;&#13;&#10;(STAGE_ID,&#13;&#10;JOB_NAME,&#13;&#10;OBJECT_NAME,&#13;&#10;SOURCE_SYSTEM,&#13;&#10;JOB_STATUS,&#13;&#10;START_TIME,&#13;&#10;END_TIME,&#13;&#10;DURATION_MILLISECOND,&#13;&#10;DURATION_SECOND,&#13;&#10;ERROR_MSG,&#13;&#10;ERROR_CODE,&#13;&#10;SOURCE_COUNT,&#13;&#10;TARGET_COUNT,&#13;&#10;INSERT_COUNT,&#13;&#10;UPDATE_COUNT,&#13;&#10;REJECT_COUNT,&#13;&#10;TARGET_OBJECT_NAME,&#13;&#10;FILE_NAME,&#13;&#10;FILE_DOMAIN,&#13;&#10;FILE_SEQ_NO,&#13;&#10;FILE_PERIODSTART,&#13;&#10;FILE_PERIODEND,&#13;&#10;FILE_SIZE,&#13;&#10;UNIQUE_ID,&#13;&#10;BUSINESS_DATE,&#13;&#10;DATA_LOAD_ENV&#13;&#10;)&#13;&#10;VALUES (&quot;+context.stage_id+&quot;,&#13;&#10;       '&quot;+context.talend_jobname+&quot;',&#13;&#10;       '&quot;+context.object_name+&quot;',&#13;&#10;&#9;   '&quot;+context.source_system+&quot;',&#13;&#10;&#9;   '&quot;+context.task_status_running+&quot;',&#13;&#10;&#9;   '&quot;+context.start_time+&quot;',&#13;&#10;       null,&#13;&#10;       0,&#13;&#10;       0,&#13;&#10;&#9;   '&quot;+context.to_be_calculated+&quot;',&#13;&#10;&#9;   '&quot;+context.to_be_calculated+&quot;',&#13;&#10;       0,&#13;&#10;       0,&#13;&#10;&#9;   null,&#13;&#10;       null,&#13;&#10;       null,&#13;&#10;&#9;   '&quot;+context.target_object_name+&quot;',&#13;&#10;&#9;   '&quot;+context.file_name+&quot;',&#13;&#10;&#9;   '&quot;+context.file_domain+&quot;',&#13;&#10;&#9;   &quot;+context.file_seq_no+&quot;,&#13;&#10;&#9;   '&quot;+context.file_periodstart+&quot;',&#13;&#10;       '&quot;+context.file_periodend+&quot;',&#13;&#10;       '&quot;+context.to_be_calculated+&quot;',&#13;&#10;&#9;   '&quot;+context.stage_id+&quot;_&quot;+context.source_system+&quot;_&quot;+context.object_name+&quot;',&#13;&#10;&#9;   '&quot;+context.business_date+&quot;',&#13;&#10;&#9;   '&quot;+context.data_load_env+&quot;'&#13;&#10;&#9;   );&#13;&#10;&quot;&#13;&#10;&#13;&#10;"/>
-    <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
-    <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Only used if the query is an insert, an update or a delete."/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;INSERT INTO &quot;+context.audit_table_task+&quot;&#13;&#10;(STAGE_ID,&#13;&#10;JOB_NAME,&#13;&#10;OBJECT_NAME,&#13;&#10;SOURCE_SYSTEM,&#13;&#10;JOB_STATUS,&#13;&#10;START_TIME,&#13;&#10;END_TIME,&#13;&#10;DURATION_MILLISECOND,&#13;&#10;DURATION_SECOND,&#13;&#10;ERROR_MSG,&#13;&#10;ERROR_CODE,&#13;&#10;SOURCE_COUNT,&#13;&#10;TARGET_COUNT,&#13;&#10;INSERT_COUNT,&#13;&#10;UPDATE_COUNT,&#13;&#10;REJECT_COUNT,&#13;&#10;TARGET_OBJECT_NAME,&#13;&#10;UNIQUE_ID,&#13;&#10;BUSINESS_DATE,&#13;&#10;DATA_LOAD_ENV&#13;&#10;)&#13;&#10;VALUES (&quot;+context.stage_id+&quot;,&#13;&#10;       '&quot;+context.talend_jobname+&quot;',&#13;&#10;       '&quot;+context.object_name+&quot;',&#13;&#10;&#9;   '&quot;+context.source_system+&quot;',&#13;&#10;&#9;   '&quot;+context.task_status_running+&quot;',&#13;&#10;&#9;   '&quot;+context.start_time+&quot;',&#13;&#10;       null,&#13;&#10;       0,&#13;&#10;       0,&#13;&#10;&#9;   '&quot;+context.to_be_calculated+&quot;',&#13;&#10;&#9;   '&quot;+context.to_be_calculated+&quot;',&#13;&#10;       0,&#13;&#10;       0,&#13;&#10;&#9;   null,&#13;&#10;       null,&#13;&#10;       null,&#13;&#10;&#9;   '&quot;+context.target_object_name+&quot;',&#13;&#10;&#9;   '&quot;+context.stage_id+&quot;_&quot;+context.source_system+&quot;_&quot;+context.object_name+&quot;',&#13;&#10;&#9;   '&quot;+context.business_date+&quot;',&#13;&#10;&#9;   '&quot;+context.data_load_env+&quot;'&#13;&#10;&#9;   );&#13;&#10;&quot;&#13;&#10;&#13;&#10;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
     <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
-    <elementParameter field="TEXT" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="100"/>
-    <elementParameter field="TEXT" name="LABEL" value="insert into audit_task_detail"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="insert into job_audit"/>
     <metadata connector="FLOW" name="tDBRow_3"/>
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tVerticaCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1472" posY="-128">
+  <node componentName="tMysqlCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1216" posY="-128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBCommit_1"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="CHECK" name="CLOSE" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TEXT" name="LABEL" value="commit"/>
     <metadata connector="FLOW" name="tDBCommit_1"/>
   </node>
-  <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1664" posY="-128">
+  <node componentName="tJobLog" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1408" posY="-128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJobLog_3"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="DEV_LOG" value="true"/>
     <elementParameter field="RADIO" name="BUSINESS_LOG" value="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Initial audit entries inserted for &quot; + context.STAGE_ID+&quot;_&quot;+context.SOURCE_SYSTEM+&quot;_&quot;+context.OBJECT_NAME"/>
@@ -602,6 +590,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Start auditing&quot;);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="print_msg"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
@@ -618,7 +607,6 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk12"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBCommit_1" offsetLabelX="0" offsetLabelY="0" source="tDBCommit_1" target="tJobLog_3">
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk13"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_2">
@@ -659,13 +647,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_419539e8-6e2e-4514-ba00-4c5323f025af"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kcFpk5PErgKWERw4t5bbNeM9BgScDTPgURKdB2BQO6mwatOvyqxZ52y0Sh9fVUQhhZ/qHMcS6tOD&#13;
-yyehifhVJQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_30f0c457-0017-486d-a79c-96fa7e0ab637"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AnLi0KLamX021tjRclzAJjXcHs+tkxADD6WnkSlN7CVm/w286sJbaTEbRZbOjHQuyLy65Cfg2gny&#13;
-XzrQynBe9w==</DigestValue></Reference></SignedInfo><SignatureValue>lGlcCffFLIkrBoJST87uTUelnNCDN5L09LWE+ceRP3LlEJ9Udie3sGrca4dJYQ9UcBuot3m8HSdo&#13;
-sFGD/4iosFkTbgSn4DNka8rZrsn+PVyAuNJTsFeJVXtZDWY2zSGV2idc8ZEh+cwdQoon71iKmwAl&#13;
-3hLQOjXbEuttCyxPSut4xvjrjdgK8/LiWEE0y84fX/tF5me0eh2y8ErUmsRJTWD8Ftx2EtqpYSyZ&#13;
-ZmvyL/c66L+dHhUM1V6jgTMX5I9xSlyHl/k59yW4oJfY1aitCjjpv6e1Ay/Vh/KDNBSoe7UvMJGh&#13;
-osHnqsm1nA6mur46LyeI5SMPjfDjFvilOHdEQw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9742c281-52cc-4033-8272-a468e2b77003"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xCU7IG7M3qDKSTmzJpRDaHVPnZF+So0fuwDDd+B2l+JiGXdo3gCttDrTvD+Wx19eOPEqrzWcWoEd&#13;
+iN4aLI6avQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e913fd55-e0f2-4ff6-a890-f84ab98b5d16"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>a3grC0hoQrCSS4XqKMdYOSMyPU2ofZf/EMtFa2s3Tqs5Twrrg/uUY9YHBMHmfI2gjO3a150rXpv/&#13;
+tQPGM6Qm/A==</DigestValue></Reference></SignedInfo><SignatureValue>FibdePMPzIMw3o81Kn4R1GvtY6mq/ZJ8UXqS0ehouLh3lW0jQRtAQrW6U40lB2WMoCbag3hB3s9R&#13;
+3wR9gXFo9JGUm83+UCdncMhaED1vrQX0sCp3S5yNJFAdymadA/Y5WNT7P4ljYfqfYdv83UfU197I&#13;
+2pGaN6bwfHMxE7jBDzExAKe6r50Gu9DlX6+TsFN4qB7oadKMHUGFhL2OX4iT+Pj45qvl+stZK8Cd&#13;
+JWyMibFZpVkON7OVwYKemqa0zGllv8Po425kdQmHJsrVUip4jwCY6KZRBqceo7vMrLVZZDo+rKGK&#13;
+pPSv0cQxZqsmPpgC9dXBRSlN+kh8llEfqdYSVQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -687,4 +675,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_30f0c457-0017-486d-a79c-96fa7e0ab637" Target="#_419539e8-6e2e-4514-ba00-4c5323f025af"><Timestamp>2023-07-18 10:18:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e913fd55-e0f2-4ff6-a890-f84ab98b5d16" Target="#_9742c281-52cc-4033-8272-a468e2b77003"><Timestamp>2023-07-18 12:46:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
