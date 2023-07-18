@@ -95,6 +95,11 @@
     <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_WP1gIPYgEe2ngrr7sI9Q_g"/>
     <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeLasPmXEe2uyaIG4cVC_w"/>
     <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BgAjmEe6_U5AZC_1q2A"/>
+    <contextParameter comment="" name="mysql_host" prompt="mysql_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnMCVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnMSVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnMiVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnMyVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnNCVSEe65zJkEvkXPsw"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_VcoS8JnwEeyUku2vCfi_yQ">
     <contextParameter comment="" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_VcoTCZnwEeyUku2vCfi_yQ"/>
@@ -192,6 +197,11 @@
     <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_WP1gIfYgEe2ngrr7sI9Q_g"/>
     <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeLatPmXEe2uyaIG4cVC_w"/>
     <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BgQjmEe6_U5AZC_1q2A"/>
+    <contextParameter comment="" name="mysql_host" prompt="mysql_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnNSVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnNiVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnNyVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnOCVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnOSVSEe65zJkEvkXPsw"/>
   </talendfile:ContextType>
   <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_GkCgELpHEeygaf0KSkgPiQ">
     <contextParameter comment="" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_GkCgKbpHEeygaf0KSkgPiQ"/>
@@ -289,14 +299,19 @@
     <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_WP1gIvYgEe2ngrr7sI9Q_g"/>
     <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeMBwPmXEe2uyaIG4cVC_w"/>
     <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BggjmEe6_U5AZC_1q2A"/>
+    <contextParameter comment="" name="mysql_host" prompt="mysql_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnOiVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnOyVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnPCVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnPSVSEe65zJkEvkXPsw"/>
+    <contextParameter comment="" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5GYnPiVSEe65zJkEvkXPsw"/>
   </talendfile:ContextType>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b28767cc-7dfa-4937-86c0-68b2f47d02fb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TfCxT2HNA12zd1taDIP7z2Z47OwnlKy1QBuGmuGF3a2OTwWDLQzHiJSsevQbcm77VkV84tnm0F61&#13;
-Vm8atPzmrg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_23df4311-3d0b-4342-af16-8ed673cec2a5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5b79xVvxP2a8spGyHGgMsA3KAV7KI7XmXsh2F3urXdlMTMdTmLUylpeApoJoIPSej0IN2fP4yUPI&#13;
-DXNRVcVWhQ==</DigestValue></Reference></SignedInfo><SignatureValue>dw5J1wR35bqx+Sb72d9O4TXYDRs4g4vWxD+bGsLX7lAx2x55v06djPmvipigb/26mXfEpTTJQzv8&#13;
-a8nbFk166yhw0NASTyarTbq1j6q871scsujC4MXHdPkcuVCzqsEvta+C68PNRyeukiy1Pz0+5sUz&#13;
-KezlPUAgRcotZlu+PsYPJPOGCjiZQGwOLLWNoyj9LEvcb7gSvgRaQEoDJD5pwnic+gu/E3azQxWY&#13;
-VlhL3j0OaYD8UhDErl+ogiJJqoKtdN6WzSmTMSfALTkscC66qbaORT0wTh2Uj7s1Su+Qb0J2NIkn&#13;
-xOiAyhqqF4Pq0RrlqlP3juw8Iuc442dxuNBUxA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b16a6aae-0bd2-4ec3-b9ce-7a00b047b80d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wXN5fYVhrafgYWga9XNS090RjTgN9OaWOEZTxaA3sUHlqYdef1Z0cUujbGL8mXzNyU5qMWZnrckT&#13;
+583HYAlb8w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4753a71d-725e-468e-8051-b002cfee4695"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Pg7QyJNG7jS1QVd4rKxYiaomftrMlZvS8wcSK+xUEJ/ngzQ16VfjYG81YdXxA9mbfMdSlWs2ZgEX&#13;
+KSl1u8U+Kg==</DigestValue></Reference></SignedInfo><SignatureValue>lqJqKFNlllGVWrNrUJYTtPNCzYgVYQqsp7KrsJCAxLP+5bXAChI25PUzTaw1/qSCq4VzgYlUm8qb&#13;
+U/4qUkecW9i2rcskh3Nw+MIY6WM7StXKjx5EX27iT7WgJhMPYu3ywaSbP/j+tz4LQmBKXW74vZlg&#13;
+3y1x5FkxCKdzoMOJ6B/nMejKWERY1pNVbCl5W3161SC2P8HGvuuw6YJCAR1nVhhTT0tRu0/QRQVv&#13;
+m1CL0EAUNeMgWtOTzoLt1i3tmZysaANtflHutOv5ISdoGhqs8PDuEA9T3mpX6Cl5pp1HM6UqYi8V&#13;
+BdHUgy8Lf+LmAdl9xSX81fst4JgKCY//rjV57Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -318,4 +333,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_23df4311-3d0b-4342-af16-8ed673cec2a5" Target="#_b28767cc-7dfa-4937-86c0-68b2f47d02fb"><Timestamp>2023-07-18 10:01:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4753a71d-725e-468e-8051-b002cfee4695" Target="#_b16a6aae-0bd2-4ec3-b9ce-7a00b047b80d"><Timestamp>2023-07-18 10:07:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
