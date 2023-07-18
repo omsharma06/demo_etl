@@ -730,14 +730,6 @@
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "VIRGINMOBILE_KSA_PROJECT:_MvUnQASGEe6i___fDFlWeA",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "VIRGINMOBILE_KSA_PROJECT:_rJm_cASGEe6i___fDFlWeA",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
     "id" : "date",
     "version" : "Latest",
     "type" : "routine"
