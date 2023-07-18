@@ -109,6 +109,7 @@
     <contextParameter comment="" internalId="_qkfMliVpEe65zJkEvkXPsw" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkfMlyVpEe65zJkEvkXPsw" name="account" prompt="account?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkfMmCVpEe65zJkEvkXPsw" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_mDc4ECVuEe65zJkEvkXPsw" name="landing_path" prompt="landing_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="PROD">
     <contextParameter comment="" internalId="_qkfMmSVpEe65zJkEvkXPsw" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
@@ -220,6 +221,7 @@
     <contextParameter comment="" internalId="_qkfNAyVpEe65zJkEvkXPsw" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkfNBCVpEe65zJkEvkXPsw" name="account" prompt="account?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkfNBSVpEe65zJkEvkXPsw" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_mDc4ESVuEe65zJkEvkXPsw" name="landing_path" prompt="landing_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_vt0glzvyEeyHUPfDQkiIHw" name="snowflake_epg_escher_account" prompt="snowflake_epg_escher_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emiratespostgroup.eu-west-1"/>
@@ -341,6 +343,7 @@
     <contextParameter comment="" internalId="_qkf0CiVpEe65zJkEvkXPsw" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkf0CyVpEe65zJkEvkXPsw" name="account" prompt="account?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkf0DCVpEe65zJkEvkXPsw" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_mDc4EiVuEe65zJkEvkXPsw" name="landing_path" prompt="landing_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="DEV">
     <contextParameter comment="" internalId="_qkf0DSVpEe65zJkEvkXPsw" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
@@ -452,6 +455,7 @@
     <contextParameter comment="" internalId="_qkf0dyVpEe65zJkEvkXPsw" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkf0eCVpEe65zJkEvkXPsw" name="account" prompt="account?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
     <contextParameter comment="" internalId="_qkf0eSVpEe65zJkEvkXPsw" name="additional_params" prompt="additional_params?" promptNeeded="false" repositoryContextId="_hfckgB7jEe6hs-C6G1UkSw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_mDc4EyVuEe65zJkEvkXPsw" name="landing_path" prompt="landing_path?" promptNeeded="false" repositoryContextId="_YajsMCU8Ee65zJkEvkXPsw" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -644,27 +648,37 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJobLog_1"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1376" posY="96">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="tjob_demo_inc_main"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="DEMO_ETL:_ehGnICVREe65zJkEvkXPsw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="DEMO_ETL:_UGdjgCVtEe65zJkEvkXPsw"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
-    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_epg_escher_account"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value=""/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value=""/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="object_name"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.object_name"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="source_system"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.source_system"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="extract_query"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.extract_query"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="delete_query"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.delete_query"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="landing_path"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.landing_path"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="object_count"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.object_count"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="load_area"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.load_area"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="curr_incremental_value"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.incremental_value"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="refresh_period"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="row1.refresh_period"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -728,13 +742,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c6dd968b-9fa1-4dd2-9c1a-78ffc673b708"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VdrbN5O/sLQFibWKaHIBpyo0r00xkzF9vk9v235TBhoVLRH0OeVfVnu9ciuxAjoGXQMTTvIMgtu7&#13;
-guOB+z5GJw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_92659a87-9d48-4008-93da-1056dd16df56"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Os61WDx5PJSoL3VXDTrSIDHs+8snEbQjJV7fHWReM6f8vqxaARg7r2Zum5yWrX6dAohg2vFU/C0w&#13;
-BkTFFMKUwQ==</DigestValue></Reference></SignedInfo><SignatureValue>Lm2ca7ZxP4d4KIqebHez0kexLHz+Z8uBm9fYhRcjMZUW0gVK5vUWeNPSuQkeGDxvSrA3cGUW6O1H&#13;
-Oc5q05MzBmoK8kPC5200+/2/LzkbFSWJLz/4UwnUEOx5HRzHNUvtOKv7ARkKJeI1XdDqfgtEfYUa&#13;
-IbNn8reuPGjI7BFViNbPmv6hkFV+Aj05jIcOwLxtO4GasJpR7SSx1U7VJCJhJdcSILQgv7VEoUm4&#13;
-ZUTp6DsTfR1zGWKJOkHlZ8EihwWSpVYVFeKgSpDNG/f+h3EC1h6HWvoaSXmy4NWLnNQQqrHRF2Qh&#13;
-VI9nMnQhEuXIM9IPJ46EKAws/FUrKWSU44IEwA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_562dc6b2-af82-46f2-92bf-8d018184ba72"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hTpH4h1GArfc/mG6KrlQGL86AxLSECQMKV3GOSiwUtgtiXt67LNSX5/YP4/Qk93kWhhxGoByH/00&#13;
+qbtX9lM8AQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_866138d7-ce6e-4828-8748-348710a7c624"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+H+Ua38TFO+4qP36Mi2kE3oYfejiPUL9dy4BqvwlGbpNS5COJcuDukaCiTvv/Kx8z31eZ3S4Df2N&#13;
+6pvtliLFKA==</DigestValue></Reference></SignedInfo><SignatureValue>hipqupgOUBstkKw4RR2bu8SRV4J7o0RACfMAC4Dm5CWDtsofLEOtSzsbdG9XRBR3L4NXC/ia+Vav&#13;
+jhL/vYCLlWxRWD5IyQ4EIk6p1j6iHJQUSS7FaeX+/DgVId30PC/FdkcqQXcxSyA7QmZyJCvgk5J9&#13;
+t7QMG7X1vCb007lsZycQxXvSAwioK2mD4efKwhxWa6EmnI2cFreRhreRM6FhLaFCkfrYH/fxx5QZ&#13;
+ATM3LlcpxXQBXqEncY82bjVPjsYHPfsDTBTMIc5H1wfTcAiDepbh8CPX1CHgcgOMFZtR56MUWK61&#13;
+H9KGPB8Ocryd2alfUazrPi079i6jANDCvl1dXA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -756,4 +770,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_92659a87-9d48-4008-93da-1056dd16df56" Target="#_c6dd968b-9fa1-4dd2-9c1a-78ffc673b708"><Timestamp>2023-07-18 13:13:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_866138d7-ce6e-4828-8748-348710a7c624" Target="#_562dc6b2-af82-46f2-92bf-8d018184ba72"><Timestamp>2023-07-18 13:25:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
