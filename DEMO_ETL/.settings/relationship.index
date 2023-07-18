@@ -995,10 +995,6 @@
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "DEMO_ETL:_cjp7oCVUEe65zJkEvkXPsw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
     "id" : "date",
     "version" : "Latest",
     "type" : "routine"
