@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_IfnPUEXwEey62pJQ8h3DjQ">
+    <contextParameter comment="" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_2BPQcHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQcnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQc3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQdHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQdXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQdnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQd3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQeHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_2BPQeXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQenKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_2BPQe3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_2BPQfHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQfXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQfnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQf3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_2BPQgHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_2BPQgXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_2BPQgnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQg3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQhHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2BPQhXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_2BPQhnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="_4PvvYHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvYXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvYnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvY3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvZHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvZXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvZnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvZ3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvaHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvaXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvanKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4Pvva3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvbHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvbXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvbnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4Pvvb3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvcHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvcXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvcnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4Pvvc3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvdHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvdXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvdnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4Pvvd3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_4PvveHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvveXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvenKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4Pvve3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_4PvvfHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_4PvvfXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvfnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4Pvvf3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvgHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvgXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="year" prompt="year?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvgnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4Pvvg3KaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvhHKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvhXKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4PvvhnKaEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" xmi:id="_csXdcXKbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_csXdcnKbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_csXdc3KbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_csXddHKbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_csXddXKbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_csXddnKbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_csXdd3KbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_csXdeHKbEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4MHObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4MXObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4MnObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4M3ObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4NHObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4NXObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4NnObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4N3ObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_MIC4OHObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MIC4OXObEeyjR64iB-IX8Q"/>
+    <contextParameter comment="" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_B_zD0HVyEeyzEtLcP6eo6A"/>
+    <contextParameter comment="" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_5MhesI2LEeyaxMByM4N4Mw"/>
+    <contextParameter comment="" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="" xmi:id="_5MhesY2LEeyaxMByM4N4Mw"/>
+    <contextParameter comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MhHsQJq7EeyIAIJUgeJkKw"/>
+    <contextParameter comment="" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_YyeJIJq7EeyIAIJUgeJkKw"/>
+    <contextParameter comment="" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_itVe4LXaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_itVe4bXaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_itVe4rXaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_itVe47XaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_dvLpgOfEEeyeW9XfUXK1uA"/>
+    <contextParameter comment="" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/om/contextfile/main_audit_vertica.txt" xmi:id="_to520EUwEe2by5BQjk5u0w"/>
+    <contextParameter comment="" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HaqmAEY0Ee2H6MURiBjO7g"/>
+    <contextParameter comment="" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_98rRMEobEe2hEYE2ZH27SQ"/>
+    <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/om/contextfile/context_file_nobill.txt" xmi:id="_WP1gIPYgEe2ngrr7sI9Q_g"/>
+    <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeLasPmXEe2uyaIG4cVC_w"/>
+    <contextParameter comment="" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvYPwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvYfwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvYvwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvY_wcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZPwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZfwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_kswKEPwdEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i0rYsPweEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xYK6gPwiEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BgAjmEe6_U5AZC_1q2A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_VcoS8JnwEeyUku2vCfi_yQ">
+    <contextParameter comment="" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_VcoTCZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTC5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTDJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTDZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTDpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTD5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTEJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTEZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTEpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTE5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTFJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTFZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTFpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTF5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTGJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTGZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTGpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTG5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTHJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTHZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTHpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_VcoTH5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="_VcoTIJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTIZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTIpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTI5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTJJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTJZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTJpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTJ5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTKJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTKZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTKpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTK5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTLJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTLZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTLpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTL5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTMJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTMZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTMpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTM5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTNJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTNZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTNpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTN5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_VcoTOJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTOZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTOpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTO5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTPJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_VcoTPZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTPpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTP5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTQJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTQZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="year" prompt="year?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTQpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTQ5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTRJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTRZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTRpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" xmi:id="_VcoTSJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTSZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTSpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTS5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTTJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTTZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTTpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTT5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTUJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTUZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTUpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTU5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTVJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTVZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTVpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTV5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_VcoTWJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTWZnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTWpnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_VcoTW5nwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="" xmi:id="_VcoTXJnwEeyUku2vCfi_yQ"/>
+    <contextParameter comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_MhI6YJq7EeyIAIJUgeJkKw"/>
+    <contextParameter comment="" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_YyeJIZq7EeyIAIJUgeJkKw"/>
+    <contextParameter comment="" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_itVe5LXaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_itVe5bXaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_itVe5rXaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_itVe57XaEey8u5fKGatRsg"/>
+    <contextParameter comment="" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_dvMQkOfEEeyeW9XfUXK1uA"/>
+    <contextParameter comment="" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_to520UUwEe2by5BQjk5u0w"/>
+    <contextParameter comment="" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HaqmAUY0Ee2H6MURiBjO7g"/>
+    <contextParameter comment="" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_98rRMUobEe2hEYE2ZH27SQ"/>
+    <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_WP1gIfYgEe2ngrr7sI9Q_g"/>
+    <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeLatPmXEe2uyaIG4cVC_w"/>
+    <contextParameter comment="" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZvwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvZ_wcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvaPwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvafwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvavwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVva_wcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_kswxIPwdEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i0r_wPweEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xYK6gfwiEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BgQjmEe6_U5AZC_1q2A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_GkCgELpHEeygaf0KSkgPiQ">
+    <contextParameter comment="" name="stage_id" prompt="stage_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_GkCgKbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="talend_jobname" prompt="talend_jobname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgK7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="object_name" prompt="object_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgLLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="file_size" prompt="file_size?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgLbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="task_status" prompt="task_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgLrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code" prompt="error_code?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgL7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="start_time" prompt="start_time?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgMLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="end_time" prompt="end_time?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgMbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="duration_second" prompt="duration_second?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgMrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg" prompt="error_msg?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgM7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="source_count" prompt="source_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgNLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="target_count" prompt="target_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgNbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="target_object_name" prompt="target_object_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgNrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="source_system" prompt="source_system?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgN7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="data_load_env" prompt="data_load_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgOLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="insert_count" prompt="insert_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgObpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="update_count" prompt="update_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgOrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="reject_count" prompt="reject_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgO7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="unique_id" prompt="unique_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgPLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="business_date" prompt="business_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgPbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table" prompt="audit_table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgPrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="object_count" prompt="object_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_GkCgP7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="print_operations" prompt="print_operations?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="_GkCgQLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="organization_unit" prompt="organization_unit?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgQbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="extract_query" prompt="extract_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgQrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="staging_path" prompt="staging_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgQ7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="task_status_failed" prompt="task_status_failed?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgRLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="task_status_success" prompt="task_status_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgRbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="task_status_running" prompt="task_status_running?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgRrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_success" prompt="error_code_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgR7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_success" prompt="error_msg_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgSLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_subjob" prompt="error_code_subjob?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgSbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_subjob" prompt="error_msg_subjob?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgSrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_validation" prompt="error_code_validation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgS7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_validation" prompt="error_msg_validation?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgTLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_extract" prompt="error_code_extract?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgTbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_extract" prompt="error_msg_extract?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgTrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_load" prompt="error_code_load?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgT7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_load" prompt="error_msg_load?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgULpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_extractload" prompt="error_code_extractload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgUbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_extractload" prompt="error_msg_extractload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgUrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="to_be_calculated" prompt="to_be_calculated?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgU7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="object_type" prompt="object_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgVLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="load_type" prompt="load_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgVbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_extractzero" prompt="error_code_extractzero?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgVrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_extractzero" prompt="error_msg_extractzero?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgV7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="parallel_thread_count" prompt="parallel_thread_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_GkCgWLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="delete_query" prompt="delete_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgWbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_code_delete" prompt="error_code_delete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgWrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="error_msg_delete" prompt="error_msg_delete?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgW7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="duration_millisecond" prompt="duration_millisecond?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgXLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="delete_count" prompt="delete_count?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_GkCgXbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="rawdata_path" prompt="rawdata_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgXrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgX7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="yearmonth" prompt="yearmonth?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgYLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="start_time_main_job" prompt="start_time_main_job?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgYbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="year" prompt="year?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgYrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="transient_path" prompt="transient_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgY7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="load_area" prompt="load_area?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgZLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="target_table_name" prompt="target_table_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgZbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="rownum" prompt="rownum?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgZrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="print_operations_audit" prompt="print_operations_audit?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" xmi:id="_GkCgaLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table_task" prompt="audit_table_task?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgabpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table_task_history" prompt="audit_table_task_history?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgarpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table_restart" prompt="audit_table_restart?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCga7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table_incremental" prompt="audit_table_incremental?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgbLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table_master_list" prompt="audit_table_master_list?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgbbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table_task_config" prompt="audit_table_task_config?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgbrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="audit_table_context" prompt="audit_table_context?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgb7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="replace_incr_value" prompt="replace_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgcLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="curr_incremental_value" prompt="curr_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgcbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="next_incremental_value" prompt="next_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgcrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="replace_start_incr_value" prompt="replace_start_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgc7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="replace_end_incr_value" prompt="replace_end_incr_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgdLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="start_incremental_value" prompt="start_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgdbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="end_incremental_value" prompt="end_incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgdrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="incremental_value" prompt="incremental_value?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgd7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="refresh_period" prompt="refresh_period?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_GkCgeLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="job_name_project" prompt="job_name_project?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgebpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="remove_duplicates_query" prompt="remove_duplicates_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgerpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="incremental_date_column" prompt="incremental_date_column?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCge7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="incremental_date_value" prompt="incremental_date_value?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="" xmi:id="_GkCgfLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgfrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="context_parameter" prompt="context_parameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgf7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="task_status_loop" prompt="task_status_loop?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCggLpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_GkCggbpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="object_name_loop" prompt="object_name_loop?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCggrpHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="dq_path" prompt="dq_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_GkCgg7pHEeygaf0KSkgPiQ"/>
+    <contextParameter comment="" name="contextfile" prompt="contextfile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_dvNesOfEEeyeW9XfUXK1uA"/>
+    <contextParameter comment="" name="context_file_path_main" prompt="context_file_path_main?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_to520kUwEe2by5BQjk5u0w"/>
+    <contextParameter comment="" name="context_initializing_query" prompt="context_initializing_query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_HatCQEY0Ee2H6MURiBjO7g"/>
+    <contextParameter comment="" name="yearmonthdate" prompt="yearmonthdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_98r4QEobEe2hEYE2ZH27SQ"/>
+    <contextParameter comment="" name="context_file_path" prompt="context_file_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_WP1gIvYgEe2ngrr7sI9Q_g"/>
+    <contextParameter comment="" name="file_name" prompt="file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xeMBwPmXEe2uyaIG4cVC_w"/>
+    <contextParameter comment="" name="vm_vertica_Server" prompt="vm_vertica_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvbPwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Login" prompt="vm_vertica_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvbfwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Password" prompt="vm_vertica_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvbvwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Port" prompt="vm_vertica_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvb_wcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Database" prompt="vm_vertica_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvcPwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_Schema" prompt="vm_vertica_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_gMVvcfwcEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="audit_table_ftp_count" prompt="audit_table_ftp_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_kswxIfwdEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="active_flag" prompt="active_flag?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i0r_wfweEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="vm_vertica_AdditionalParams" prompt="vm_vertica_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_xYK6gvwiEe2SUr_mCINuVA"/>
+    <contextParameter comment="" name="transient_temp_path" prompt="transient_temp_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_yV0BggjmEe6_U5AZC_1q2A"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_39d9770c-0ebc-46d3-981f-d006580419c4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>h6QM1om+ruawhbwEDcO2r2lmthH+y8p0SPwVe1j7AkMCiRUeKo6G91kW6j+mard6gW2vcEImBN8s&#13;
+Je+n2vWa/A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5a3b79f4-990d-4dcd-8468-3222bb1e3dea"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ngfaTpc56l1CgOlygzLdHfYWdnHB2p39wNKVQ1e0eoGFJy3wI02PO8/buI2ZYbB8Uw3sZlEc8Cdu&#13;
+Fnch8B9v9w==</DigestValue></Reference></SignedInfo><SignatureValue>pNzcA2OhEyQVDH36KsdqDcGSZ5LAdBMaIlQzBxe8vz2h1jakphSMeVO+2FSNS4V+IbkkvxTQMvSC&#13;
+NiiPXuU81fYm/Q2gNWVxxiRtvvfzRuoJbp3VxK5CJhsWjqupJnoV9wY5lFcWZ7Z4r7PTWfZY/4kj&#13;
+vGCrz+AIp6lX5d72LzdPqKfO59zBJGcoWU03w2qa/4bBeRpZxGISEg5NKqEi8oe2uXHDOxIiI87n&#13;
+3x2xJNS1KDE5VVHsgG9dAQFRdY0CRO2fX86ZSlHiOXsbdaVGZaCF7jeTaEt8i8OLVVa6uixvXd01&#13;
+SSxvd/KY+6otbwP8SapQPLnxQJ4vBA9ktXWa9Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5a3b79f4-990d-4dcd-8468-3222bb1e3dea" Target="#_39d9770c-0ebc-46d3-981f-d006580419c4"><Timestamp>2023-07-18 12:38:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

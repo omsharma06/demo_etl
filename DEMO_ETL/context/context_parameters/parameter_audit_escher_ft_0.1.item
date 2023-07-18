@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="NONPROD" xmi:id="_cuVPwHaJEeul28dyPgSNLA">
+    <contextParameter comment="" name="STAGE_ID" prompt="STAGE_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_cuVPwXaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_NAME_TMC" prompt="TASK_NAME_TMC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPwnaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TALEND_JOBNAME" prompt="TALEND_JOBNAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPw3aJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="OBJECT_NAME" prompt="OBJECT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPxHaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="FILE_SIZE" prompt="FILE_SIZE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPxXaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_STATUS" prompt="TASK_STATUS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPxnaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE" prompt="ERROR_CODE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPx3aJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="START_TIME" prompt="START_TIME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPyHaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="END_TIME" prompt="END_TIME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPyXaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="DURATION_SECOND" prompt="DURATION_SECOND?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_cuVPynaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG" prompt="ERROR_MSG?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPy3aJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="SOURCE_COUNT" prompt="SOURCE_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_cuVPzHaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TARGET_COUNT" prompt="TARGET_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_cuVPzXaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TARGET_OBJECT_NAME" prompt="TARGET_OBJECT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPznaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="SOURCE_SYSTEM" prompt="SOURCE_SYSTEM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVPz3aJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="DATA_LOAD_ENV" prompt="DATA_LOAD_ENV?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVP0HaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="INSERT_COUNT" prompt="INSERT_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_cuVP0XaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="UPDATE_COUNT" prompt="UPDATE_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_cuVP0naJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="REJECT_COUNT" prompt="REJECT_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_cuVP03aJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="UNIQUE_ID" prompt="UNIQUE_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVP1HaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="BUSINESS_DATE" prompt="BUSINESS_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVP1XaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="AUDIT_TABLE" prompt="AUDIT_TABLE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cuVP1naJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="OBJECT_COUNT" prompt="OBJECT_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_cuVP13aJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="CONTEXT_FILE_NAME" prompt="CONTEXT_FILE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/apps/context_files/context_epg_escher_ft_bi.txt" xmi:id="_cuVP2HaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="PRINT_OPERATIONS" prompt="PRINT_OPERATIONS?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="_cuVP2XaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ORGANIZATION_UNIT" prompt="ORGANIZATION_UNIT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_AYhMkHaQEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="EXTRACT_QUERY" prompt="EXTRACT_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_egwFQHatEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="STAGING_PATH" prompt="STAGING_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_egwFQXatEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_STATUS_FAILED" prompt="TASK_STATUS_FAILED?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEkHa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_STATUS_SUCCESS" prompt="TASK_STATUS_SUCCESS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEkXa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_STATUS_RUNNING" prompt="TASK_STATUS_RUNNING?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEkna4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_SUCCESS" prompt="ERROR_CODE_SUCCESS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEk3a4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_SUCCESS" prompt="ERROR_MSG_SUCCESS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZElHa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_SUBJOB" prompt="ERROR_CODE_SUBJOB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZElXa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_SUBJOB" prompt="ERROR_MSG_SUBJOB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZElna4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_VALIDATION" prompt="ERROR_CODE_VALIDATION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJIHa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_VALIDATION" prompt="ERROR_MSG_VALIDATION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJIXa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_EXTRACT" prompt="ERROR_CODE_EXTRACT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJIna9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_EXTRACT" prompt="ERROR_MSG_EXTRACT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJI3a9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_LOAD" prompt="ERROR_CODE_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJJHa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_LOAD" prompt="ERROR_MSG_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJJXa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_EXTRACTLOAD" prompt="ERROR_CODE_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJJna9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_EXTRACTLOAD" prompt="ERROR_MSG_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJJ3a9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TO_BE_CALCULATED" prompt="TO_BE_CALCULATED?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJKHa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="OBJECT_TYPE" prompt="OBJECT_TYPE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_s0pw0Hc-Eeubuamxi9IjFg"/>
+    <contextParameter comment="" name="LOAD_TYPE" prompt="LOAD_TYPE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_s0pw0Xc-Eeubuamxi9IjFg"/>
+    <contextParameter comment="" name="ERROR_CODE_EXTRACTZERO" prompt="ERROR_CODE_EXTRACTZERO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6uDBYHdxEeuxa9bCcB44IA"/>
+    <contextParameter comment="" name="ERROR_MSG_EXTRACTZERO" prompt="ERROR_MSG_EXTRACTZERO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6uDBYXdxEeuxa9bCcB44IA"/>
+    <contextParameter comment="" name="PARALLEL_THREAD_COUNT" prompt="PARALLEL_THREAD_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_HcjbcHzwEeuf9v2LXxq7-g"/>
+    <contextParameter comment="" name="DELETE_QUERY" prompt="DELETE_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_0kxOkIbeEeupr-1WQSaeXg"/>
+    <contextParameter comment="" name="ERROR_CODE_DELETE" prompt="ERROR_CODE_DELETE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_l2nJUIbkEeupr-1WQSaeXg"/>
+    <contextParameter comment="" name="ERROR_MSG_DELETE" prompt="ERROR_MSG_DELETE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_l2nJUYbkEeupr-1WQSaeXg"/>
+    <contextParameter comment="" name="DURATION_MILLISECOND" prompt="DURATION_MILLISECOND?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="__hmPwI-2EeuuaPL2zpaP1A"/>
+    <contextParameter comment="" name="DELETE_COUNT" prompt="DELETE_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_qopc0DfcEeyBwIMu7Sf29A"/>
+    <contextParameter comment="" name="RAWDATA_PATH" prompt="RAWDATA_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_H7MhQDjXEeyE67VQx4y1yg"/>
+    <contextParameter comment="" name="MONTH" prompt="MONTH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szvVsDudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="YEARMONTH" prompt="YEARMONTH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8wDudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="START_TIME_MAIN_JOB" prompt="START_TIME_MAIN_JOB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8wTudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="YEAR" prompt="YEAR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8wjudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="TRANSIENT_PATH" prompt="TRANSIENT_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8wzudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="LOAD_AREA" prompt="LOAD_AREA?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8xDudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="TARGET_TABLE_NAME" prompt="TARGET_TABLE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jO6FEEBhEeyhcppYGj04pA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_lXaR0Gt6EeuUb_pQP9yf-Q">
+    <contextParameter comment="" name="STAGE_ID" prompt="STAGE_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_lXaR0Wt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="TASK_NAME_TMC" prompt="TASK_NAME_TMC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR0mt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="TALEND_JOBNAME" prompt="TALEND_JOBNAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR02t6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="OBJECT_NAME" prompt="OBJECT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR1Gt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="FILE_SIZE" prompt="FILE_SIZE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR1Wt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="TASK_STATUS" prompt="TASK_STATUS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR1mt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="ERROR_CODE" prompt="ERROR_CODE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR12t6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="START_TIME" prompt="START_TIME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR2Gt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="END_TIME" prompt="END_TIME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR2Wt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="DURATION_SECOND" prompt="DURATION_SECOND?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_lXaR2mt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="ERROR_MSG" prompt="ERROR_MSG?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR22t6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="SOURCE_COUNT" prompt="SOURCE_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_lXaR3Gt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="TARGET_COUNT" prompt="TARGET_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_lXaR3Wt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="TARGET_OBJECT_NAME" prompt="TARGET_OBJECT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR3mt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="SOURCE_SYSTEM" prompt="SOURCE_SYSTEM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR32t6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="DATA_LOAD_ENV" prompt="DATA_LOAD_ENV?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR4Gt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="INSERT_COUNT" prompt="INSERT_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_lXaR4Wt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="UPDATE_COUNT" prompt="UPDATE_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_lXaR4mt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="REJECT_COUNT" prompt="REJECT_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_lXaR42t6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="UNIQUE_ID" prompt="UNIQUE_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR5Gt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="BUSINESS_DATE" prompt="BUSINESS_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_lXaR5Wt6EeuUb_pQP9yf-Q"/>
+    <contextParameter comment="" name="AUDIT_TABLE" prompt="AUDIT_TABLE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_n7KBEHFFEeuSV73EPUDC4g"/>
+    <contextParameter comment="" name="OBJECT_COUNT" prompt="OBJECT_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_JvKDQHZ5Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="CONTEXT_FILE_NAME" prompt="CONTEXT_FILE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_aXJV8HaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="PRINT_OPERATIONS" prompt="PRINT_OPERATIONS?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" xmi:id="_aXJV8XaJEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ORGANIZATION_UNIT" prompt="ORGANIZATION_UNIT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_AYhMkXaQEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="EXTRACT_QUERY" prompt="EXTRACT_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_egwFQnatEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="STAGING_PATH" prompt="STAGING_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_egwFQ3atEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_STATUS_FAILED" prompt="TASK_STATUS_FAILED?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEmHa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_STATUS_SUCCESS" prompt="TASK_STATUS_SUCCESS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEmXa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TASK_STATUS_RUNNING" prompt="TASK_STATUS_RUNNING?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEmna4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_SUCCESS" prompt="ERROR_CODE_SUCCESS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEm3a4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_SUCCESS" prompt="ERROR_MSG_SUCCESS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEnHa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_SUBJOB" prompt="ERROR_CODE_SUBJOB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEnXa4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_SUBJOB" prompt="ERROR_MSG_SUBJOB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_EwZEnna4Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_VALIDATION" prompt="ERROR_CODE_VALIDATION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJKXa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_VALIDATION" prompt="ERROR_MSG_VALIDATION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJKna9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_EXTRACT" prompt="ERROR_CODE_EXTRACT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJK3a9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_EXTRACT" prompt="ERROR_MSG_EXTRACT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJLHa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_LOAD" prompt="ERROR_CODE_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJLXa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_LOAD" prompt="ERROR_MSG_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJLna9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_CODE_EXTRACTLOAD" prompt="ERROR_CODE_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJL3a9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="ERROR_MSG_EXTRACTLOAD" prompt="ERROR_MSG_EXTRACTLOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJMHa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="TO_BE_CALCULATED" prompt="TO_BE_CALCULATED?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_64HJMXa9Eeul28dyPgSNLA"/>
+    <contextParameter comment="" name="OBJECT_TYPE" prompt="OBJECT_TYPE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_s0pw0nc-Eeubuamxi9IjFg"/>
+    <contextParameter comment="" name="LOAD_TYPE" prompt="LOAD_TYPE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_s0pw03c-Eeubuamxi9IjFg"/>
+    <contextParameter comment="" name="ERROR_CODE_EXTRACTZERO" prompt="ERROR_CODE_EXTRACTZERO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6uDBYndxEeuxa9bCcB44IA"/>
+    <contextParameter comment="" name="ERROR_MSG_EXTRACTZERO" prompt="ERROR_MSG_EXTRACTZERO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_6uDBY3dxEeuxa9bCcB44IA"/>
+    <contextParameter comment="" name="PARALLEL_THREAD_COUNT" prompt="PARALLEL_THREAD_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" xmi:id="_HcjbcXzwEeuf9v2LXxq7-g"/>
+    <contextParameter comment="" name="DELETE_QUERY" prompt="DELETE_QUERY?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_0kxOkYbeEeupr-1WQSaeXg"/>
+    <contextParameter comment="" name="ERROR_CODE_DELETE" prompt="ERROR_CODE_DELETE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_l2nwYIbkEeupr-1WQSaeXg"/>
+    <contextParameter comment="" name="ERROR_MSG_DELETE" prompt="ERROR_MSG_DELETE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_l2nwYYbkEeupr-1WQSaeXg"/>
+    <contextParameter comment="" name="DURATION_MILLISECOND" prompt="DURATION_MILLISECOND?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="__hmPwY-2EeuuaPL2zpaP1A"/>
+    <contextParameter comment="" name="DELETE_COUNT" prompt="DELETE_COUNT?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="" xmi:id="_qopc0TfcEeyBwIMu7Sf29A"/>
+    <contextParameter comment="" name="RAWDATA_PATH" prompt="RAWDATA_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_H7MhQTjXEeyE67VQx4y1yg"/>
+    <contextParameter comment="" name="MONTH" prompt="MONTH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8xTudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="YEARMONTH" prompt="YEARMONTH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8xjudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="START_TIME_MAIN_JOB" prompt="START_TIME_MAIN_JOB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8xzudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="YEAR" prompt="YEAR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8yDudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="TRANSIENT_PATH" prompt="TRANSIENT_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8yTudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="LOAD_AREA" prompt="LOAD_AREA?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_szv8yjudEeyHUPfDQkiIHw"/>
+    <contextParameter comment="" name="TARGET_TABLE_NAME" prompt="TARGET_TABLE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_jO6FEUBhEeyhcppYGj04pA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_28f0c2fd-6ef5-4b3d-a683-2e0a46255730"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>K2UeS6QLj/kLa8UCf6YWwismOEkIICSWxfU8gtbhJAjZt65TkQxgRWImZbkPIBtfqNJjqr+hLvT1&#13;
+MLcCPWIzEg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8ab06856-8529-48bf-931b-a29e5a2ef49a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7NPX8iiA094L01+UtPCxr8K54gJPp1Hw4ry2kC9qvvDxYk8fTXqygEZYztqMTUUCp/j4ekShJuhf&#13;
+/ivOA1MlSQ==</DigestValue></Reference></SignedInfo><SignatureValue>YcQY4l0eHnZU1pI1NkZ+gBDRuAe+wq7VU2lo2YPPOogbL2ZUFM4dm3ueoNb0E49Vx9nP/8DtbfiJ&#13;
+/ogcbBAsF1B1VycOX9fuUZBdr+IxK3K97LuOy1Wwlf2E4+Yfje0mtmdY1vfH44e51NRdVAFFDnut&#13;
+w5AgykXKTUWh03CSqpN35BsEgjRWu0sGP2QIGyik6qFgEa7hGGutGjHsEnyng/v2Xt4ogJOGDD/U&#13;
+9/Zp+orc4Lhn6LBm3P7WkqdfK36Xl1dPSwNfU1GcdsuIkEZLCQhCyDKrcC2XQyugcFarMOfR/4VS&#13;
+MLdOA72Xd6gS/HHeR8J3LXNE8O5pplpIjTK1EA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8ab06856-8529-48bf-931b-a29e5a2ef49a" Target="#_28f0c2fd-6ef5-4b3d-a683-2e0a46255730"><Timestamp>2023-07-18 12:38:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

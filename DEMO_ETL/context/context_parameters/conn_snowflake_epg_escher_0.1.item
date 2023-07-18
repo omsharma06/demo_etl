@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="NONPROD" xmi:id="_A84GwHakEeul28dyPgSNLA">
+    <contextParameter comment="" name="snowflake_epg_escher_loginTimeout" prompt="snowflake_epg_escher_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15" xmi:id="_A84GwXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_role" prompt="snowflake_epg_escher_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ACCOUNTADMIN" xmi:id="_A84GwnakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_region" prompt="snowflake_epg_escher_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84Gw3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_authenticationType" prompt="snowflake_epg_escher_authenticationType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BASIC" xmi:id="_A84GxHakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_userPassword_password" prompt="snowflake_epg_escher_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:heQIMJ8c03FaPqrQXvLqnEJi2l3BvxaPPzeUooPP54mQEm7R1EvV" xmi:id="_A84GxXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_jdbcParameters" prompt="snowflake_epg_escher_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84GxnakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_userPassword_userId" prompt="snowflake_epg_escher_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_etl" xmi:id="_A84Gx3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_customRegionID" prompt="snowflake_epg_escher_customRegionID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84GyHakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_account" prompt="snowflake_epg_escher_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emiratespostgroup.eu-west-1" xmi:id="_A84GyXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_keyAlias" prompt="snowflake_epg_escher_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84GynakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_warehouse" prompt="snowflake_epg_escher_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="COMPUTE_WH" xmi:id="_A84Gy3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_schemaName" prompt="snowflake_epg_escher_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84GzHakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_db" prompt="snowflake_epg_escher_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="EPGDBDEV" xmi:id="_A84GzXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_stage_path" prompt="snowflake_epg_escher_stage_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="@~/" xmi:id="_KEq8QHalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_local_folder" prompt="snowflake_epg_escher_local_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KEq8QXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_copy_onerror" prompt="snowflake_epg_escher_copy_onerror?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="continue" xmi:id="_KEq8QnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_copy_fileformat" prompt="snowflake_epg_escher_copy_fileformat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="(type=csv field_delimiter=',' compression=gzip field_optionally_enclosed_by='\&quot;')" xmi:id="_KEq8Q3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_parallel" prompt="snowflake_epg_escher_put_parallel?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10" xmi:id="_KEq8RHalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_autocompress" prompt="snowflake_epg_escher_put_autocompress?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="false" xmi:id="_KEq8RXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_retry" prompt="snowflake_epg_escher_put_retry?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3" xmi:id="_KEq8RnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_chunksize" prompt="snowflake_epg_escher_put_chunksize?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="52428800" xmi:id="_KEq8R3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_filerequests" prompt="snowflake_epg_escher_filerequests?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="5" xmi:id="_14OmMHamEeul28dyPgSNLA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_A84GznakEeul28dyPgSNLA">
+    <contextParameter comment="" name="snowflake_epg_escher_loginTimeout" prompt="snowflake_epg_escher_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15" xmi:id="_A84Gz3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_role" prompt="snowflake_epg_escher_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ACCOUNTADMIN" xmi:id="_A84G0HakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_region" prompt="snowflake_epg_escher_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84G0XakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_authenticationType" prompt="snowflake_epg_escher_authenticationType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BASIC" xmi:id="_A84G0nakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_userPassword_password" prompt="snowflake_epg_escher_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:oyvXrm6omCak/y2iml17fFdOKF90Q2jF0JIFDm98EZwuEuJzN/JE" xmi:id="_A84G03akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_jdbcParameters" prompt="snowflake_epg_escher_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84G1HakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_userPassword_userId" prompt="snowflake_epg_escher_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_etl" xmi:id="_A84G1XakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_customRegionID" prompt="snowflake_epg_escher_customRegionID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84G1nakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_account" prompt="snowflake_epg_escher_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emiratespostgroup.eu-west-1" xmi:id="_A84G13akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_keyAlias" prompt="snowflake_epg_escher_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84G2HakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_warehouse" prompt="snowflake_epg_escher_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="COMPUTE_WH" xmi:id="_A84G2XakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_schemaName" prompt="snowflake_epg_escher_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84G2nakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_db" prompt="snowflake_epg_escher_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="EPGDBDEV" xmi:id="_A84G23akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_stage_path" prompt="snowflake_epg_escher_stage_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KEq8SHalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_local_folder" prompt="snowflake_epg_escher_local_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KEq8SXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_copy_onerror" prompt="snowflake_epg_escher_copy_onerror?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="continue" xmi:id="_KEq8SnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_copy_fileformat" prompt="snowflake_epg_escher_copy_fileformat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="(type=csv field_delimiter=',' compression=gzip field_optionally_enclosed_by='\&quot;')" xmi:id="_KEq8S3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_parallel" prompt="snowflake_epg_escher_put_parallel?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10" xmi:id="_KEq8THalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_autocompress" prompt="snowflake_epg_escher_put_autocompress?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="false" xmi:id="_KEq8TXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_retry" prompt="snowflake_epg_escher_put_retry?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3" xmi:id="_KEq8TnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_put_chunksize" prompt="snowflake_epg_escher_put_chunksize?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="52428800" xmi:id="_KEq8T3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_epg_escher_filerequests" prompt="snowflake_epg_escher_filerequests?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="5" xmi:id="_14OmMXamEeul28dyPgSNLA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_404ac4f6-6ca3-44cc-8ece-bcbf2cfda2fa"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DIQD4ZybBBZNE2w1PghUiu2gaDN3WLxjMZkIGXx6joUYTyLZ5yGoGNwAoTRuWcK4goiz86Z1bgXz&#13;
+qJ5HOuKDCA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f677de85-73e3-4827-bdd7-3b9df085085c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MttA6PzX2wFASCDUZ/EYH0lCxPKNcwo39HCoxmPny60BMpB8+rcz6/tLUhsnJSTd9s1vXXSQpgR4&#13;
+/c5VoHa+Og==</DigestValue></Reference></SignedInfo><SignatureValue>Sl/4HQYBbTpbrWOAOeWBiuVBPgygj31iAEWu48+oW/65N3v1PXF7GSSkNDblRD3hqaBgw9a6lVHE&#13;
+xEIc4ybJpbw1f+VecH0vuA+zheA+CPwUrqBX7TnH8YDOz6I2OuEFzR4NjjAneXzlOFWirW0EUX2l&#13;
+NV/u4WTxzljRLVr4hsS8MRtfBcaNkH2g4P1QYEvrhaxwxgvMQvAt6ep308ugiAD0XNw54+oElYmq&#13;
+uRlFqHNdgGU6CsV/NnfH+PJAViH6F5QpGvxmZGpgtX8e2AQcryrybRXvfd8K/sshxk3j/rbe0ipD&#13;
+p9VDYyIHRV6ovsZ5BqnixvA3XTvydbHV/46Ipw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f677de85-73e3-4827-bdd7-3b9df085085c" Target="#_404ac4f6-6ca3-44cc-8ece-bcbf2cfda2fa"><Timestamp>2023-07-18 12:38:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

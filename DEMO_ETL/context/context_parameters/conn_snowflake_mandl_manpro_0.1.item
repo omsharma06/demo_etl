@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="NONPROD" xmi:id="_A84GwHakEeul28dyPgSNLA">
+    <contextParameter comment="" name="snowflake_mandl_manpro_loginTimeout" prompt="snowflake_mandl_manpro_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15" xmi:id="_A84GwXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_role" prompt="snowflake_mandl_manpro_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MANDL_USER" xmi:id="_A84GwnakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_region" prompt="snowflake_mandl_manpro_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AZURE_EAST_US_2" xmi:id="_A84Gw3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_authenticationType" prompt="snowflake_mandl_manpro_authenticationType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BASIC" xmi:id="_A84GxHakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_userPassword_password" prompt="snowflake_mandl_manpro_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:YZLUgj4uz/UvgFdTs2tCLfr4qzSDXH7glYsRrkAAGBBy+KyRrA==" xmi:id="_A84GxXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_jdbcParameters" prompt="snowflake_mandl_manpro_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84GxnakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_userPassword_userId" prompt="snowflake_mandl_manpro_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SRAVINDRANATH" xmi:id="_A84Gx3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_customRegionID" prompt="snowflake_mandl_manpro_customRegionID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="west-europe.azure" xmi:id="_A84GyHakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_account" prompt="snowflake_mandl_manpro_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="fy56654.west-europe.azure" xmi:id="_A84GyXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_keyAlias" prompt="snowflake_mandl_manpro_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84GynakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_warehouse" prompt="snowflake_mandl_manpro_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MANDL_PURPLECUBE_WH" xmi:id="_A84Gy3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_schemaName" prompt="snowflake_mandl_manpro_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="STG_MANPRO_SH" xmi:id="_A84GzHakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_db" prompt="snowflake_mandl_manpro_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MANDL_TEST_DB" xmi:id="_A84GzXakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_stage_path" prompt="snowflake_mandl_manpro_stage_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="@~/" xmi:id="_KEq8QHalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_local_folder" prompt="snowflake_mandl_manpro_local_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KEq8QXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_copy_onerror" prompt="snowflake_mandl_manpro_copy_onerror?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="continue" xmi:id="_KEq8QnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_copy_fileformat" prompt="snowflake_mandl_manpro_copy_fileformat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="(type=csv field_delimiter=',' compression=gzip field_optionally_enclosed_by='\&quot;')" xmi:id="_KEq8Q3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_parallel" prompt="snowflake_mandl_manpro_put_parallel?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10" xmi:id="_KEq8RHalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_autocompress" prompt="snowflake_mandl_manpro_put_autocompress?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="false" xmi:id="_KEq8RXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_retry" prompt="snowflake_mandl_manpro_put_retry?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3" xmi:id="_KEq8RnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_chunksize" prompt="snowflake_mandl_manpro_put_chunksize?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="52428800" xmi:id="_KEq8R3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_filerequests" prompt="snowflake_mandl_manpro_filerequests?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="5" xmi:id="_14OmMHamEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="CONTEXT_FILE_NAME_SNOWFLAKE_MANPRO" prompt="CONTEXT_FILE_NAME_SNOWFLAKE_MANPRO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Edgematics/ContextFiles/context_snowtrac_snowflake_manpro_conn" xmi:id="_j1OB0HaoEeul28dyPgSNLA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_A84GznakEeul28dyPgSNLA">
+    <contextParameter comment="" name="snowflake_mandl_manpro_loginTimeout" prompt="snowflake_mandl_manpro_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15" xmi:id="_A84Gz3akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_role" prompt="snowflake_mandl_manpro_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MANDL_USER" xmi:id="_A84G0HakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_region" prompt="snowflake_mandl_manpro_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AZURE_EAST_US_2" xmi:id="_A84G0XakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_authenticationType" prompt="snowflake_mandl_manpro_authenticationType?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BASIC" xmi:id="_A84G0nakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_userPassword_password" prompt="snowflake_mandl_manpro_userPassword_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NE2l2PDuoIxrAgT7A5w+jizDXNR3O1bVZiv6DYVjKimRp8Qi4g==" xmi:id="_A84G03akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_jdbcParameters" prompt="snowflake_mandl_manpro_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84G1HakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_userPassword_userId" prompt="snowflake_mandl_manpro_userPassword_userId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SRAVINDRANATH" xmi:id="_A84G1XakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_customRegionID" prompt="snowflake_mandl_manpro_customRegionID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="west-europe.azure" xmi:id="_A84G1nakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_account" prompt="snowflake_mandl_manpro_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="fy56654.west-europe.azure" xmi:id="_A84G13akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_keyAlias" prompt="snowflake_mandl_manpro_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_A84G2HakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_warehouse" prompt="snowflake_mandl_manpro_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MANDL_PURPLECUBE_WH" xmi:id="_A84G2XakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_schemaName" prompt="snowflake_mandl_manpro_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="STG_MANPRO_SH" xmi:id="_A84G2nakEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_db" prompt="snowflake_mandl_manpro_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MANDL_TEST_DB" xmi:id="_A84G23akEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_stage_path" prompt="snowflake_mandl_manpro_stage_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KEq8SHalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_local_folder" prompt="snowflake_mandl_manpro_local_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KEq8SXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_copy_onerror" prompt="snowflake_mandl_manpro_copy_onerror?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="continue" xmi:id="_KEq8SnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_copy_fileformat" prompt="snowflake_mandl_manpro_copy_fileformat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="(type=csv field_delimiter=',' compression=gzip field_optionally_enclosed_by='\&quot;')" xmi:id="_KEq8S3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_parallel" prompt="snowflake_mandl_manpro_put_parallel?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10" xmi:id="_KEq8THalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_autocompress" prompt="snowflake_mandl_manpro_put_autocompress?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="false" xmi:id="_KEq8TXalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_retry" prompt="snowflake_mandl_manpro_put_retry?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3" xmi:id="_KEq8TnalEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_put_chunksize" prompt="snowflake_mandl_manpro_put_chunksize?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="52428800" xmi:id="_KEq8T3alEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="snowflake_mandl_manpro_filerequests" prompt="snowflake_mandl_manpro_filerequests?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="5" xmi:id="_14OmMXamEeul28dyPgSNLA"/>
+    <contextParameter comment="" name="CONTEXT_FILE_NAME_SNOWFLAKE_MANPRO" prompt="CONTEXT_FILE_NAME_SNOWFLAKE_MANPRO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Edgematics/ContextFiles/context_snowtrac_snowflake_manpro_conn" xmi:id="_j1OB0XaoEeul28dyPgSNLA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_53ceb361-34fa-4b4c-b9b0-488af354b01f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6K3PDDwt24leTGASVMpnTOEAKyD13KpprF3xLMfmzRbEY0SxFcplvTV9Pdr91fsz8naHPuKK++0b&#13;
+Ef0v9AATSA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c4aabd1f-25f5-44bc-ab28-656d2c8cbf98"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0DpW1kYsFhsMZ9+b+WelJukmGGtNXO3R81uxbcsdU74cu9XdRLo/AYmWKfbg+lQ3XUr35xsGn7w4&#13;
+Pv5vxkWqmw==</DigestValue></Reference></SignedInfo><SignatureValue>VXeWFd9Zp8z1lwOQZcDAEFI9uPIJuOHNNHWa5J86TVJUJcB0p9PtPyy6VP9LHqkhGIJKIfVJLlod&#13;
+rBT52zdFXfLmxA3nPNlzrHZT3cuEqW9xqH/mzau5C58oMhR8z0Zz2aqHD+n4SbkWztTS9pIgaMoU&#13;
+hNYP3OmI68pEhsQDfTI8r31eScOcAmFa3MnCjbOg5Tuc7LeACxEJtKlHpMZAYKS3GKRGG6PUI1UW&#13;
+EhBWj7AZnKzk3Fafs+zFsug4Iw18eg/mDaxfkryctdqixIn0vSEFGN8gQhyw+/6DpqOmdCSeOYY/&#13;
+ly36w8K5TEapKhKfrnVVwzr24ctHaPIevXRFhA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c4aabd1f-25f5-44bc-ab28-656d2c8cbf98" Target="#_53ceb361-34fa-4b4c-b9b0-488af354b01f"><Timestamp>2023-07-18 12:38:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
