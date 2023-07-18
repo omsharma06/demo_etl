@@ -303,6 +303,9 @@
     }, {
       "id" : "_5GYnPiVSEe65zJkEvkXPsw",
       "name" : "mysql_password"
+    }, {
+      "id" : "_8Q-foiVtEe65zJkEvkXPsw",
+      "name" : "landing_path"
     } ]
   }, {
     "contextName" : "PROD",
@@ -638,6 +641,9 @@
     }, {
       "id" : "_5GYnOSVSEe65zJkEvkXPsw",
       "name" : "mysql_password"
+    }, {
+      "id" : "_8Q-foSVtEe65zJkEvkXPsw",
+      "name" : "landing_path"
     } ]
   }, {
     "contextName" : "DEV",
@@ -973,6 +979,9 @@
     }, {
       "id" : "_5GYnNCVSEe65zJkEvkXPsw",
       "name" : "mysql_password"
+    }, {
+      "id" : "_8Q-foCVtEe65zJkEvkXPsw",
+      "name" : "landing_path"
     } ]
   }, {
     "contextName" : "Default",
